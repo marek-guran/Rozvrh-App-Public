@@ -12,12 +12,13 @@
 
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:stretchColumns="0,1,2,3,4"
+        android:stretchColumns="*"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
         android:gravity="center">
 
 
         <TableRow
-            android:background="#000000"
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:layout_margin="1dp"
@@ -34,7 +35,7 @@
                 android:textColor="@color/black"
                 android:layout_margin="1dp"
                 android:layout_column="0"
-                android:background="#03A9F4"
+                android:background="@drawable/skuskypredmet"
                 android:textStyle="bold"
                 android:gravity="center"
                 />
@@ -61,7 +62,7 @@
                 android:textSize="14dp"
                 android:textColor="@color/black"
                 android:layout_margin="1dp"
-                android:background="#03A9F4"
+                android:background="@drawable/skuskytrieda"
                 android:gravity="center"
                 android:textStyle="bold"
                 android:layout_column="2"
@@ -69,7 +70,6 @@
         </TableRow>
 
         <TableRow
-            android:background="#000000"
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:layout_margin="1dp"
@@ -118,7 +118,6 @@
 
 
         <TableRow
-            android:background="#000000"
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:layout_margin="1dp"
@@ -165,7 +164,6 @@
         </TableRow>
 
         <TableRow
-            android:background="#000000"
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:layout_margin="1dp"
@@ -212,7 +210,6 @@
         </TableRow>
 
         <TableRow
-            android:background="#000000"
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:layout_margin="1dp"
@@ -259,7 +256,6 @@
         </TableRow>
 
         <TableRow
-            android:background="#000000"
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:layout_margin="1dp"
@@ -306,7 +302,6 @@
         </TableRow>
 
         <TableRow
-            android:background="#000000"
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:layout_margin="1dp"
@@ -353,7 +348,6 @@
         </TableRow>
 
         <TableRow
-            android:background="#000000"
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:layout_margin="1dp"
@@ -400,7 +394,6 @@
         </TableRow>
 
         <TableRow
-            android:background="#000000"
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:layout_margin="1dp"
@@ -447,7 +440,6 @@
         </TableRow>
 
         <TableRow
-            android:background="#000000"
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:layout_margin="1dp"
@@ -471,7 +463,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="11.1.2023"
+                android:text="30.1.2023"
                 android:textSize="14dp"
                 android:textColor="@color/black"
                 android:layout_margin="1dp"
@@ -494,7 +486,6 @@
         </TableRow>
 
         <TableRow
-            android:background="#000000"
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:layout_margin="1dp"
@@ -541,7 +532,6 @@
         </TableRow>
 
         <TableRow
-            android:background="#000000"
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:layout_margin="1dp"
@@ -588,7 +578,6 @@
         </TableRow>
 
         <TableRow
-            android:background="#000000"
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:layout_margin="1dp"
@@ -604,7 +593,7 @@
                 android:textColor="@color/black"
                 android:layout_margin="1dp"
                 android:layout_column="0"
-                android:background="#D5D4D4"
+                android:background="@drawable/predmetstaz"
                 android:gravity="center"
                 />
 
@@ -629,7 +618,7 @@
                 android:textSize="14dp"
                 android:textColor="@color/black"
                 android:layout_margin="1dp"
-                android:background="#D5D4D4"
+                android:background="@drawable/triedaprazdne"
                 android:gravity="center"
                 android:layout_column="2" />
         </TableRow>

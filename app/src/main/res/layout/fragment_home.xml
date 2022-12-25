@@ -8,17 +8,20 @@
     tools:context=".ui.home.HomeFragment" >
 
 
-    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <TableLayout
 
+        android:id="@+id/tableLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:shrinkColumns="*"
         android:stretchColumns="*"
-        android:gravity="center">
+        tools:layout_editor_absoluteX="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
 
 
         <TableRow
-            android:background="#000000"
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:layout_margin="1dp"
@@ -29,341 +32,370 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="@drawable/rozvrhdni"
+                android:gravity="center"
                 android:text=" Pondelok "
+                android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textColor="@color/black"
-                android:layout_margin="1dp"
-                android:layout_column="0"
-                android:background="#03A9F4"
-                android:textStyle="bold"
-                android:gravity="center"
-                />
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_column="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/rozvrhdni"
+                android:gravity="center"
                 android:text=" Utorok "
+                android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textColor="@color/black"
-                android:layout_margin="1dp"
-                android:layout_column="1"
-                android:background="#03A9F4"
-                android:textStyle="bold"
-                android:gravity="center"
-                />
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text=" Streda "
-                android:textColor="@color/black"
-                android:layout_margin="1dp"
                 android:layout_column="2"
-                android:background="#03A9F4"
-                android:textStyle="bold"
+                android:layout_margin="1dp"
+                android:background="@drawable/rozvrhdni"
                 android:gravity="center"
-                />
+                android:text=" Streda "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text=" Štvrtok "
-                android:textColor="@color/black"
-                android:layout_margin="1dp"
                 android:layout_column="3"
-                android:background="#03A9F4"
-                android:textStyle="bold"
+                android:layout_margin="1dp"
+                android:background="@drawable/rozvrhdni"
                 android:gravity="center"
-                />
+                android:text=" Štvrtok "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
 
 
         </TableRow>
 
         <TableRow
-            android:background="#000000"
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:layout_margin="1dp"
-            android:layout_weight="1"
-            >
+            android:layout_weight="1">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="@drawable/rozvrhoveokno"
+                android:gravity="center"
                 android:text="8:50 - 9:35\nPSV\nA302"
-                android:textSize="12dp"
-                android:layout_margin="1dp"
-                android:layout_column="0"
-                android:background="#3DDC84"
+                android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textColor="@color/black"
-                android:gravity="center"
-                />
+                android:textSize="12dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_column="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/rozvrhoveokno"
+                android:gravity="center"
                 android:text="10:30 - 12:50\nApp IoT\nA401"
-                android:textSize="12dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textColor="@color/black"
-                android:layout_margin="1dp"
-                android:layout_column="1"
-                android:background="#3DDC84"
-                android:gravity="center"
-                />
+                android:textSize="12dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_column="2"
+                android:layout_margin="1dp"
+                android:background="@drawable/rozvrhoveokno"
+                android:gravity="center"
                 android:text="8:50 - 10:20\nSAE\nAula"
-                android:textSize="12dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textColor="@color/black"
-                android:layout_margin="1dp"
-                android:background="#3DDC84"
-                android:gravity="center"
-                android:layout_column="2" />
+                android:textSize="12dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_column="3"
+                android:layout_margin="1dp"
+                android:background="@drawable/rozvrhoveokno"
+                android:gravity="center"
                 android:text="8:00 - 10:20\nOS\nA402"
-                android:textSize="12dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textColor="@color/black"
-                android:layout_margin="1dp"
-                android:background="#3DDC84"
-                android:gravity="center"
-                android:layout_column="3" />
+                android:textSize="12dp" />
         </TableRow>
 
 
-
         <TableRow
-            android:background="#000000"
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:layout_margin="1dp"
-            android:layout_weight="1"
-            >
+            android:layout_weight="1">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="@drawable/rozvrhoveokno"
+                android:gravity="center"
                 android:text="9:40 - 11:10\nPSK\nA202"
-                android:textSize="12dp"
-                android:layout_margin="1dp"
-                android:layout_column="0"
-                android:background="#3DDC84"
+                android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textColor="@color/black"
-                android:gravity="center"
-                />
+                android:textSize="12dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text=""
-                android:layout_margin="1dp"
                 android:layout_column="1"
-                android:background="#D5D4D4"
+                android:layout_margin="1dp"
+                android:background="@drawable/rozvrhprazdne"
                 android:gravity="center"
-                />
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_column="2"
+                android:layout_margin="1dp"
+                android:background="@drawable/rozvrhoveokno"
+                android:gravity="center"
                 android:text="10:30 - 12:05\nDTB\nA401, A402"
-                android:textSize="12dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textColor="@color/black"
-                android:layout_margin="1dp"
-                android:background="#3DDC84"
-                android:gravity="center"
-                android:layout_column="2" />
+                android:textSize="12dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_column="3"
+                android:layout_margin="1dp"
+                android:background="@drawable/rozvrhoveokno"
+                android:gravity="center"
                 android:text="11:20 - 15:20\nWD\nA402"
-                android:textSize="12dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textColor="@color/black"
-                android:layout_margin="1dp"
-                android:background="#3DDC84"
-                android:gravity="center"
-                android:layout_column="3" />
+                android:textSize="12dp" />
         </TableRow>
 
         <TableRow
-            android:background="#000000"
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:layout_margin="1dp"
-            android:layout_weight="1"
-            >
+            android:layout_weight="1">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="@drawable/rozvrhoveokno"
+                android:gravity="center"
                 android:text="12:10 - 12:55\nPSK\nAula"
-                android:textSize="12dp"
-                android:layout_margin="1dp"
-                android:layout_column="0"
-                android:background="#3DDC84"
+                android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textColor="@color/black"
-                android:gravity="center"
-                />
+                android:textSize="12dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text=""
-                android:layout_margin="1dp"
                 android:layout_column="1"
-                android:background="#D5D4D4"
+                android:layout_margin="1dp"
+                android:background="@drawable/rozvrhprazdne"
                 android:gravity="center"
-                />
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_column="2"
+                android:layout_margin="1dp"
+                android:background="@drawable/rozvrhoveokno"
+                android:gravity="center"
                 android:text="12:10 - 14:30\nTZI\nA403"
-                android:textSize="12dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textColor="@color/black"
-                android:layout_margin="1dp"
-                android:background="#3DDC84"
-                android:gravity="center"
-                android:layout_column="2" />
+                android:textSize="12dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text=""
-                android:textSize="12dp"
+                android:layout_column="3"
                 android:layout_margin="1dp"
-                android:background="#D5D4D4"
+                android:background="@drawable/rozvrhprazdne"
                 android:gravity="center"
-                android:layout_column="3" />
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="12dp" />
         </TableRow>
 
         <TableRow
-            android:background="#000000"
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:layout_margin="1dp"
-            android:layout_weight="1"
-            >
+            android:layout_weight="1">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:background="@drawable/rozvrhoveokno"
+                android:gravity="center"
                 android:text="13:00 - 14:30\nZTB\nAula"
-                android:textSize="12dp"
-                android:layout_margin="1dp"
-                android:layout_column="0"
-                android:background="#3DDC84"
+                android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textColor="@color/black"
-                android:gravity="center"
-                />
+                android:textSize="12dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text=""
-                android:layout_margin="1dp"
                 android:layout_column="1"
-                android:background="#D5D4D4"
+                android:layout_margin="1dp"
+                android:background="@drawable/rozvrhprazdne"
                 android:gravity="center"
-                />
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text=""
+                android:layout_column="2"
                 android:layout_margin="1dp"
-                android:background="#D5D4D4"
+                android:background="@drawable/rozvrhprazdne"
                 android:gravity="center"
-                android:layout_column="2" />
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text=""
-                android:textSize="12dp"
+                android:layout_column="3"
                 android:layout_margin="1dp"
-                android:background="#D5D4D4"
+                android:background="@drawable/rozvrhprazdne"
                 android:gravity="center"
-                android:layout_column="3" />
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="12dp" />
         </TableRow>
 
         <TableRow
-            android:background="#000000"
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:layout_margin="1dp"
-            android:layout_weight="1"
-            >
+            android:layout_weight="1">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="14:40 - 17:00\nIoT\nA401"
-                android:textSize="12dp"
-                android:layout_margin="1dp"
                 android:layout_column="0"
-                android:background="#3DDC84"
+                android:layout_margin="1dp"
+                android:background="@drawable/rozvrhoveokno"
+                android:gravity="center"
+                android:text="14:40 - 17:00\nIoT\nA401"
+                android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textColor="@color/black"
-                android:gravity="center"
-                />
+                android:textSize="12dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text=""
-                android:layout_margin="1dp"
                 android:layout_column="1"
-                android:background="#D5D4D4"
+                android:layout_margin="1dp"
+                android:background="@drawable/rozvrhprazdne"
                 android:gravity="center"
-                />
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text=""
+                android:layout_column="2"
                 android:layout_margin="1dp"
-                android:background="#D5D4D4"
+                android:background="@drawable/rozvrhprazdne"
                 android:gravity="center"
-                android:layout_column="2" />
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text=""
-                android:textSize="12dp"
+                android:layout_column="3"
                 android:layout_margin="1dp"
-                android:background="#D5D4D4"
+                android:background="@drawable/rozvrhprazdne"
                 android:gravity="center"
-                android:layout_column="3" />
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="12dp" />
         </TableRow>
 
 
     </TableLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/vlakydomov"
+        android:gravity="center"
+        android:text="Vlaky Domov"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/casyvlakov"
+        android:gravity="center"
+        android:text="13:04 - 13:47\n15:05 - 15:47\n16:04 - 16:47\n17:05 - 17:47\n18:04 - 18:47"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/autobusy"
+        android:text="Autobusy Domov"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:text="25 - 13:52   10 - 14:00   11 - 14:03\n11 - 15:49  24 - 15:55  23 - 16:00\n3 - 16:51   23 - 16:59  24 - 17:12\n25 - 17:55   23 - 18:02 11 - 18:10\n25 - 18:49  3 - 18:53   24 - 18:55"
+        android:textSize="16dp"
+        android:background="@drawable/autobusycasy"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:gravity="center"
+        android:layout_marginRight="10dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
