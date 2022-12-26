@@ -18,7 +18,8 @@
         android:stretchColumns="*"
         tools:layout_editor_absoluteX="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp">
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp">
 
 
         <TableRow
@@ -346,21 +347,21 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="145dp"
+        android:layout_width="130dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:background="@drawable/vlakydomov"
         android:gravity="center"
         android:text="Vlaky Domov"
-        android:textStyle="bold"
         android:textColor="@color/white"
         android:textSize="20dp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tableLayout"
         android:layout_marginLeft="10dp"/>
 
     <TextView
-        android:layout_width="145dp"
+        android:layout_width="130dp"
         android:layout_height="wrap_content"
         android:background="@drawable/casyvlakov"
         android:gravity="center"
@@ -376,26 +377,26 @@
         android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:layout_marginRight="10dp"
         android:background="@drawable/autobusy"
+        android:gravity="center"
         android:text="Autobusy Domov"
         android:textColor="@color/white"
         android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tableLayout"
-        android:gravity="center"/>
+        android:layout_marginRight="10dp"/>
 
     <TextView
         android:layout_width="240dp"
         android:layout_height="wrap_content"
-        android:text="25 - 13:52   10 - 14:00   11 - 14:03\n11 - 15:49  24 - 15:55  23 - 16:00\n3 - 16:51   23 - 16:59  24 - 17:12\n25 - 17:55   23 - 18:02 11 - 18:10\n25 - 18:49  3 - 18:53   24 - 18:55"
-        android:textSize="16dp"
         android:background="@drawable/autobusycasy"
+        android:gravity="center"
+        android:text="25 - 13:52   10 - 14:00   11 - 14:03\n11 - 15:49  24 - 15:55  23 - 16:00\n3 - 16:51   23 - 16:59  24 - 17:12\n25 - 17:55   23 - 18:02 11 - 18:10\n25 - 18:49  3 - 18:53   24 - 18:55"
         android:textColor="@color/white"
+        android:textSize="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        android:gravity="center"
         android:layout_marginRight="10dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
