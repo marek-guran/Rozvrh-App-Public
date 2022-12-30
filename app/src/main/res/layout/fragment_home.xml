@@ -1,429 +1,425 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment">
 
-
-    <TableLayout
-
-        android:id="@+id/tableLayout"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10sp"
-        android:layout_marginTop="10sp"
-        android:layout_marginRight="10sp"
-        android:gravity="center"
-        android:shrinkColumns="*"
-        android:stretchColumns="*"
-        tools:layout_editor_absoluteX="10sp">
+        android:layout_height="wrap_content">
+
+        <TableLayout
+
+            android:id="@+id/rozvrh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="10sp"
+            android:gravity="center"
+            android:shrinkColumns="*"
+            android:stretchColumns="*"
+            tools:layout_editor_absoluteX="10sp">
 
 
-        <TableRow
-            android:layout_width="fill_parent"
-            android:layout_height="0sp"
-            android:layout_margin="1sp"
-            android:layout_weight="1"
-
-            >
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_column="0"
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0sp"
                 android:layout_margin="1sp"
-                android:background="@drawable/rozvrhdni"
-                android:gravity="center"
-                android:text=" Pondelok "
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textColor="@color/black"
-                android:textStyle="bold" />
+                android:layout_weight="1"
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_column="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1sp"
+                    android:background="@drawable/rozvrhdni"
+                    android:gravity="center"
+                    android:text=" Pondelok "
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1sp"
+                    android:background="@drawable/rozvrhdni"
+                    android:gravity="center"
+                    android:text=" Utorok "
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1sp"
+                    android:background="@drawable/rozvrhdni"
+                    android:gravity="center"
+                    android:text=" Streda "
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="3"
+                    android:layout_margin="1sp"
+                    android:background="@drawable/rozvrhdni"
+                    android:gravity="center"
+                    android:text=" Štvrtok "
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0sp"
                 android:layout_margin="1sp"
-                android:background="@drawable/rozvrhdni"
-                android:gravity="center"
-                android:text=" Utorok "
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textColor="@color/black"
-                android:textStyle="bold" />
+                android:layout_weight="1">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_column="2"
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1sp"
+                    android:background="@drawable/rozvrhoveokno"
+                    android:gravity="center"
+                    android:text="8:50 - 9:35\nPSV\nA302"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1sp"
+                    android:background="@drawable/rozvrhoveokno"
+                    android:gravity="center"
+                    android:text="10:30 - 12:50\nApp IoT\nA401"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1sp"
+                    android:background="@drawable/rozvrhoveokno"
+                    android:gravity="center"
+                    android:text="8:50 - 10:20\nSAE\nAula"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="3"
+                    android:layout_margin="1sp"
+                    android:background="@drawable/rozvrhoveokno"
+                    android:gravity="center"
+                    android:text="8:00 - 10:20\nOS\nA402"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0sp"
                 android:layout_margin="1sp"
-                android:background="@drawable/rozvrhdni"
-                android:gravity="center"
-                android:text=" Streda "
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textColor="@color/black"
-                android:textStyle="bold" />
+                android:layout_weight="1">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_column="3"
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1sp"
+                    android:background="@drawable/rozvrhoveokno"
+                    android:gravity="center"
+                    android:text="9:40 - 11:10\nPSK\nA202"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1sp"
+                    android:background="@drawable/rozvrhprazdne"
+                    android:gravity="center"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1sp"
+                    android:background="@drawable/rozvrhoveokno"
+                    android:gravity="center"
+                    android:text="10:30 - 12:05\nDTB\nA401, A402"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="3"
+                    android:layout_margin="1sp"
+                    android:background="@drawable/rozvrhoveokno"
+                    android:gravity="center"
+                    android:text="11:20 - 15:20\nWD\nA402"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0sp"
                 android:layout_margin="1sp"
-                android:background="@drawable/rozvrhdni"
-                android:gravity="center"
-                android:text=" Štvrtok "
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textColor="@color/black"
-                android:textStyle="bold" />
+                android:layout_weight="1">
 
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1sp"
+                    android:background="@drawable/rozvrhoveokno"
+                    android:gravity="center"
+                    android:text="12:10 - 12:55\nPSK\nAula"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
 
-        </TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1sp"
+                    android:background="@drawable/rozvrhprazdne"
+                    android:gravity="center"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
 
-        <TableRow
-            android:layout_width="fill_parent"
-            android:layout_height="0sp"
-            android:layout_margin="1sp"
-            android:layout_weight="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1sp"
+                    android:background="@drawable/rozvrhoveokno"
+                    android:gravity="center"
+                    android:text="12:10 - 14:30\nTZI\nA403"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_column="0"
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="3"
+                    android:layout_margin="1sp"
+                    android:background="@drawable/rozvrhprazdne"
+                    android:gravity="center"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0sp"
                 android:layout_margin="1sp"
-                android:background="@drawable/rozvrhoveokno"
-                android:gravity="center"
-                android:text="8:50 - 9:35\nPSV\nA302"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:layout_weight="1">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_column="1"
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1sp"
+                    android:background="@drawable/rozvrhoveokno"
+                    android:gravity="center"
+                    android:text="13:00 - 14:30\nZTB\nAula"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1sp"
+                    android:background="@drawable/rozvrhprazdne"
+                    android:gravity="center"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1sp"
+                    android:background="@drawable/rozvrhprazdne"
+                    android:gravity="center"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="3"
+                    android:layout_margin="1sp"
+                    android:background="@drawable/rozvrhprazdne"
+                    android:gravity="center"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0sp"
                 android:layout_margin="1sp"
-                android:background="@drawable/rozvrhoveokno"
-                android:gravity="center"
-                android:text="10:30 - 12:50\nApp IoT\nA401"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textColor="@color/black"
-                android:textSize="12sp" />
+                android:layout_weight="1">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_column="2"
-                android:layout_margin="1sp"
-                android:background="@drawable/rozvrhoveokno"
-                android:gravity="center"
-                android:text="8:50 - 10:20\nSAE\nAula"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textColor="@color/black"
-                android:textSize="12sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1sp"
+                    android:background="@drawable/rozvrhoveokno"
+                    android:gravity="center"
+                    android:text="14:40 - 17:00\nIoT\nA401"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_column="3"
-                android:layout_margin="1sp"
-                android:background="@drawable/rozvrhoveokno"
-                android:gravity="center"
-                android:text="8:00 - 10:20\nOS\nA402"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textColor="@color/black"
-                android:textSize="12sp" />
-        </TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1sp"
+                    android:background="@drawable/rozvrhprazdne"
+                    android:gravity="center"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1sp"
+                    android:background="@drawable/rozvrhprazdne"
+                    android:gravity="center"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
 
-        <TableRow
-            android:layout_width="fill_parent"
-            android:layout_height="0sp"
-            android:layout_margin="1sp"
-            android:layout_weight="1">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_column="0"
-                android:layout_margin="1sp"
-                android:background="@drawable/rozvrhoveokno"
-                android:gravity="center"
-                android:text="9:40 - 11:10\nPSK\nA202"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textColor="@color/black"
-                android:textSize="12sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_column="1"
-                android:layout_margin="1sp"
-                android:background="@drawable/rozvrhprazdne"
-                android:gravity="center"
-                android:text=""
-                android:textAppearance="?android:attr/textAppearanceLarge" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_column="2"
-                android:layout_margin="1sp"
-                android:background="@drawable/rozvrhoveokno"
-                android:gravity="center"
-                android:text="10:30 - 12:05\nDTB\nA401, A402"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textColor="@color/black"
-                android:textSize="12sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_column="3"
-                android:layout_margin="1sp"
-                android:background="@drawable/rozvrhoveokno"
-                android:gravity="center"
-                android:text="11:20 - 15:20\nWD\nA402"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textColor="@color/black"
-                android:textSize="12sp" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="fill_parent"
-            android:layout_height="0sp"
-            android:layout_margin="1sp"
-            android:layout_weight="1">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_column="0"
-                android:layout_margin="1sp"
-                android:background="@drawable/rozvrhoveokno"
-                android:gravity="center"
-                android:text="12:10 - 12:55\nPSK\nAula"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textColor="@color/black"
-                android:textSize="12sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_column="1"
-                android:layout_margin="1sp"
-                android:background="@drawable/rozvrhprazdne"
-                android:gravity="center"
-                android:text=""
-                android:textAppearance="?android:attr/textAppearanceLarge" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_column="2"
-                android:layout_margin="1sp"
-                android:background="@drawable/rozvrhoveokno"
-                android:gravity="center"
-                android:text="12:10 - 14:30\nTZI\nA403"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textColor="@color/black"
-                android:textSize="12sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_column="3"
-                android:layout_margin="1sp"
-                android:background="@drawable/rozvrhprazdne"
-                android:gravity="center"
-                android:text=""
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textSize="12sp" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="fill_parent"
-            android:layout_height="0sp"
-            android:layout_margin="1sp"
-            android:layout_weight="1">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_column="0"
-                android:layout_margin="1sp"
-                android:background="@drawable/rozvrhoveokno"
-                android:gravity="center"
-                android:text="13:00 - 14:30\nZTB\nAula"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textColor="@color/black"
-                android:textSize="12sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_column="1"
-                android:layout_margin="1sp"
-                android:background="@drawable/rozvrhprazdne"
-                android:gravity="center"
-                android:text=""
-                android:textAppearance="?android:attr/textAppearanceLarge" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_column="2"
-                android:layout_margin="1sp"
-                android:background="@drawable/rozvrhprazdne"
-                android:gravity="center"
-                android:text=""
-                android:textAppearance="?android:attr/textAppearanceLarge" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_column="3"
-                android:layout_margin="1sp"
-                android:background="@drawable/rozvrhprazdne"
-                android:gravity="center"
-                android:text=""
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textSize="12sp" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="fill_parent"
-            android:layout_height="0sp"
-            android:layout_margin="1sp"
-            android:layout_weight="1">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_column="0"
-                android:layout_margin="1sp"
-                android:background="@drawable/rozvrhoveokno"
-                android:gravity="center"
-                android:text="14:40 - 17:00\nIoT\nA401"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textColor="@color/black"
-                android:textSize="12sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_column="1"
-                android:layout_margin="1sp"
-                android:background="@drawable/rozvrhprazdne"
-                android:gravity="center"
-                android:text=""
-                android:textAppearance="?android:attr/textAppearanceLarge" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_column="2"
-                android:layout_margin="1sp"
-                android:background="@drawable/rozvrhprazdne"
-                android:gravity="center"
-                android:text=""
-                android:textAppearance="?android:attr/textAppearanceLarge" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_column="3"
-                android:layout_margin="1sp"
-                android:background="@drawable/rozvrhprazdne"
-                android:gravity="center"
-                android:text=""
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textSize="12sp" />
-        </TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="3"
+                    android:layout_margin="1sp"
+                    android:background="@drawable/rozvrhprazdne"
+                    android:gravity="center"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="12sp" />
+            </TableRow>
 
 
-    </TableLayout>
+        </TableLayout>
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="130sp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40sp"
-        android:background="@drawable/vlakydomov"
-        android:gravity="center"
-        android:text="Vlaky Domov"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@id/guideline"
-        app:layout_constraintStart_toEndOf="@id/guideline1"
-        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+        <TextView
+            android:id="@+id/vlaky"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="40sp"
+            android:layout_marginRight="10sp"
+            android:background="@drawable/vlakydomov"
+            android:gravity="center"
+            android:text="Vlaky Domov"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="2sp"
+            app:layout_constraintTop_toBottomOf="@+id/rozvrh" />
 
-    <TextView
-        android:layout_width="130sp"
-        android:layout_height="wrap_content"
-        android:background="@drawable/casyvlakov"
-        android:gravity="center"
-        android:text="13:04 - 13:47\n15:05 - 15:47\n16:04 - 16:47\n17:05 - 17:47\n18:04 - 18:47"
-        android:textColor="@color/white"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="@id/guideline"
-        app:layout_constraintStart_toEndOf="@id/guideline1"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        <TextView
+            android:id="@+id/vlaky_casy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:background="@drawable/casyvlakov"
+            android:gravity="center"
+            android:text="13:04 - 13:47\n15:05 - 15:47\n16:04 - 16:47\n17:05 - 17:47\n18:04 - 18:47"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:paddingBottom="10sp"
+            app:layout_constraintTop_toBottomOf="@+id/vlaky"
+            tools:layout_editor_absoluteX="10dp" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="240sp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40sp"
-        android:background="@drawable/autobusy"
-        android:gravity="center"
-        android:text="Autobusy Domov"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@id/guideline3"
-        app:layout_constraintStart_toStartOf="@id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+        <TextView
+            android:id="@+id/autobusy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="10sp"
+            android:background="@drawable/autobusy"
+            android:gravity="center"
+            android:text="Autobusy Domov"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="2sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/vlaky_casy" />
 
-    <TextView
-        android:layout_width="240sp"
-        android:layout_height="wrap_content"
-        android:background="@drawable/autobusycasy"
-        android:gravity="center"
-        android:text="25 - 13:52   10 - 14:00   11 - 14:03\n11 - 15:49  24 - 15:55  23 - 16:00\n3 - 16:51   23 - 16:59  24 - 17:12\n25 - 17:55   23 - 18:02 11 - 18:10\n25 - 18:49  3 - 18:53   24 - 18:55"
-        android:textColor="@color/white"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="@id/guideline3"
-        app:layout_constraintStart_toStartOf="@id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        <TextView
+            android:id="@+id/autobusy_casy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:background="@drawable/autobusycasy"
+            android:textAlignment="center"
+            android:text="25 - 13:52       10 - 14:00        11 - 14:03\n11 - 15:49       24 - 15:55        23 - 16:00\n3 - 16:51       23 - 16:59      24 - 17:12\n25 - 17:55        23 - 18:02       11 - 18:10\n25 - 18:49      3 - 18:53       24 - 18:55"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:paddingRight="10sp"
+            android:paddingLeft="10sp"
+            android:paddingBottom="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/autobusy" />
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.02" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\n\n\n\n\n\n\n"
+            app:layout_constraintTop_toBottomOf="@+id/autobusy_casy"/>
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.34" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.39" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.98" />
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
