@@ -404,7 +404,7 @@
             android:layout_marginRight="10sp"
             android:background="@drawable/autobusycasy"
             android:textAlignment="center"
-            android:text="25 - 13:52       10 - 14:00        11 - 14:03\n11 - 15:49       24 - 15:55        23 - 16:00\n3 - 16:51       23 - 16:59      24 - 17:12\n25 - 17:55        23 - 18:02       11 - 18:10\n25 - 18:49      3 - 18:53       24 - 18:55"
+            android:text="25 - 13:52        10 - 14:00      11 - 14:03\n11 - 15:49        24 - 15:55      23 - 16:00\n03 - 16:51        23 - 16:59      24 - 17:12\n25 - 17:55        23 - 18:02      11 - 18:10\n25 - 18:49        03 - 18:53      24 - 18:55"
             android:textColor="@color/white"
             android:textSize="16sp"
             android:paddingRight="10sp"
