@@ -38,7 +38,7 @@
                     android:layout_margin="1sp"
                     android:background="@drawable/rozvrhdni"
                     android:gravity="center"
-                    android:text=" Pondelok "
+                    android:text="Pondelok"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:textStyle="bold"
                     style="@style/Widget.Material3.FloatingActionButton.Primary" />
@@ -50,7 +50,7 @@
                     android:layout_margin="1sp"
                     android:background="@drawable/rozvrhdni"
                     android:gravity="center"
-                    android:text=" Utorok "
+                    android:text="Utorok"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:textStyle="bold"
                     style="@style/Widget.Material3.FloatingActionButton.Primary" />
@@ -62,7 +62,7 @@
                     android:layout_margin="1sp"
                     android:background="@drawable/rozvrhdni"
                     android:gravity="center"
-                    android:text=" Streda "
+                    android:text="Streda"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:textStyle="bold"
                     style="@style/Widget.Material3.FloatingActionButton.Primary" />
@@ -74,7 +74,7 @@
                     android:layout_margin="1sp"
                     android:background="@drawable/rozvrhdni"
                     android:gravity="center"
-                    android:text=" Štvrtok "
+                    android:text="Štvrtok"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:textStyle="bold"
                     style="@style/Widget.Material3.FloatingActionButton.Primary" />
