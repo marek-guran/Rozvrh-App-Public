@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="seed">#3DDC84</color>
+    <color name="md_theme_light_primary">#006D3B</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_primaryContainer">#03A9F4</color>
+    <color name="md_theme_light_onPrimaryContainer">#00210E</color>
+    <color name="md_theme_light_secondary">#006493</color>
+    <color name="md_theme_light_onSecondary">#FFFFFF</color>
+    <color name="md_theme_light_secondaryContainer">#3DDC84</color>
+    <color name="md_theme_light_onSecondaryContainer">#001E30</color>
+    <color name="md_theme_light_tertiary">#9F4200</color>
+    <color name="md_theme_light_onTertiary">#FFFFFF</color>
+    <color name="md_theme_light_tertiaryContainer">#D5D4D4</color>
+    <color name="md_theme_light_onTertiaryContainer">#341100</color>
+    <color name="md_theme_light_error">#BA1A1A</color>
+    <color name="md_theme_light_errorContainer">#FFDAD6</color>
+    <color name="md_theme_light_onError">#FFFFFF</color>
+    <color name="md_theme_light_onErrorContainer">#410002</color>
+    <color name="md_theme_light_onBackground">#3E0021</color>
+    <color name="md_theme_light_surface">#FFFBFF</color>
+    <color name="md_theme_light_onSurface">#3E0021</color>
+    <color name="md_theme_light_surfaceVariant">#DDE5DB</color>
+    <color name="md_theme_light_onSurfaceVariant">#414942</color>
+    <color name="md_theme_light_outline">#717971</color>
+    <color name="md_theme_light_inverseOnSurface">#FFECF0</color>
+    <color name="md_theme_light_inverseSurface">#5D1137</color>
+    <color name="md_theme_light_inversePrimary">#43E188</color>
+    <color name="md_theme_light_shadow">#000000</color>
+    <color name="md_theme_light_surfaceTint">#006D3B</color>
+    <color name="md_theme_light_outlineVariant">#C1C9BF</color>
+    <color name="md_theme_light_scrim">#000000</color>
+
     <color name="purple_200">#03A9F4</color>
     <color name="purple_500">#3F51B5</color>
     <color name="purple_700">#00330E87</color>

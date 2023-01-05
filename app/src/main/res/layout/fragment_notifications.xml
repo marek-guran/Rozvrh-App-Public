@@ -10,7 +10,7 @@
 
     <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:stretchColumns="*"
         android:layout_marginRight="10sp"
@@ -22,9 +22,7 @@
             android:layout_width="fill_parent"
             android:layout_height="0sp"
             android:layout_margin="1sp"
-            android:layout_weight="1"
-
-            >
+            android:layout_weight="1">
 
             <TextView
                 android:layout_width="match_parent"
@@ -32,12 +30,12 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Predmet"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="0"
                 android:background="@drawable/skuskypredmet"
                 android:textStyle="bold"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Primary"
                 />
 
             <TextView
@@ -46,12 +44,12 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Hodnotenie"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="1"
                 android:background="@drawable/skuskytrieda"
                 android:gravity="center"
                 android:textStyle="bold"
+                style="@style/Widget.Material3.FloatingActionButton.Primary"
                 />
 
         </TableRow>
@@ -69,11 +67,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Internet Vecí"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="0"
                 android:background="#3DDC84"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Secondary"
                 />
 
             <TextView
@@ -82,11 +80,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="B"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="1"
                 android:background="#3DDC84"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Secondary"
                 />
 
         </TableRow>
@@ -106,11 +104,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Pedagogická a sociálna komunikácia"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="0"
                 android:background="#D5D4D4"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                 />
 
             <TextView
@@ -119,11 +117,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text=""
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="1"
                 android:background="#D5D4D4"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                 />
 
         </TableRow>
@@ -141,11 +139,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Princípy PC"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="0"
                 android:background="#3DDC84"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Secondary"
                 />
 
             <TextView
@@ -154,11 +152,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="A"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="1"
                 android:background="#3DDC84"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Secondary"
                 />
 
         </TableRow>
@@ -176,11 +174,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Prosociálna Výchova"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="0"
                 android:background="#D5D4D4"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                 />
 
             <TextView
@@ -189,11 +187,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text=""
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="1"
                 android:background="#D5D4D4"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                 />
 
         </TableRow>
@@ -211,11 +209,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Sociologické Aspekty Edukácie"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="0"
                 android:background="#D5D4D4"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                 />
 
             <TextView
@@ -224,11 +222,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text=""
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="1"
                 android:background="#D5D4D4"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                 />
 
         </TableRow>
@@ -246,11 +244,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Teoretické Základy Informatiky"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="0"
                 android:background="#D5D4D4"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                 />
 
             <TextView
@@ -259,11 +257,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text=""
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="1"
                 android:background="#D5D4D4"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                 />
 
         </TableRow>
@@ -281,11 +279,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Vizuálna Kultúra"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="0"
                 android:background="#3DDC84"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Secondary"
                 />
 
             <TextView
@@ -294,11 +292,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="A"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="1"
                 android:background="#3DDC84"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Secondary"
                 />
 
         </TableRow>
@@ -316,11 +314,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Webový Dizajn"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="0"
                 android:background="#D5D4D4"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                 />
 
             <TextView
@@ -329,11 +327,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text=""
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="1"
                 android:background="#D5D4D4"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                 />
 
         </TableRow>
@@ -351,11 +349,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Základné Témy Biblie"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="0"
                 android:background="#D5D4D4"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                 />
 
             <TextView
@@ -364,11 +362,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text=""
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="1"
                 android:background="#D5D4D4"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                 />
 
         </TableRow>
@@ -386,11 +384,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Aplikácie Internetu A Vecí"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="0"
                 android:background="#3DDC84"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Secondary"
                 />
 
             <TextView
@@ -399,11 +397,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="B"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="1"
                 android:background="#3DDC84"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Secondary"
                 />
 
         </TableRow>
@@ -421,11 +419,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Databázové Systémy"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="0"
                 android:background="#D5D4D4"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                 />
 
             <TextView
@@ -434,11 +432,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text=""
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="1"
                 android:background="#D5D4D4"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                 />
 
         </TableRow>
@@ -456,11 +454,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Stáž A"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="0"
                 android:background="@drawable/predmetstaz"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                 />
 
             <TextView
@@ -469,11 +467,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text=""
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="1"
                 android:background="@drawable/triedaprazdne"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                 />
 
         </TableRow>

@@ -20,8 +20,7 @@
             android:layout_marginRight="10sp"
             android:gravity="center"
             android:shrinkColumns="*"
-            android:stretchColumns="*"
-            tools:layout_editor_absoluteX="10sp">
+            android:stretchColumns="*">
 
 
             <TableRow
@@ -41,8 +40,8 @@
                     android:gravity="center"
                     android:text=" Pondelok "
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textColor="@color/black"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    style="@style/Widget.Material3.FloatingActionButton.Primary" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -53,8 +52,8 @@
                     android:gravity="center"
                     android:text=" Utorok "
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textColor="@color/black"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    style="@style/Widget.Material3.FloatingActionButton.Primary" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -65,8 +64,8 @@
                     android:gravity="center"
                     android:text=" Streda "
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textColor="@color/black"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    style="@style/Widget.Material3.FloatingActionButton.Primary" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -77,8 +76,8 @@
                     android:gravity="center"
                     android:text=" Štvrtok "
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textColor="@color/black"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    style="@style/Widget.Material3.FloatingActionButton.Primary" />
 
 
             </TableRow>
@@ -98,8 +97,8 @@
                     android:gravity="center"
                     android:text="8:50 - 9:35\nPSV\nA302"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textColor="@color/black"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"
+                    style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -110,8 +109,8 @@
                     android:gravity="center"
                     android:text="10:30 - 12:50\nApp IoT\nA401"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textColor="@color/black"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"
+                    style="@style/Widget.Material3.FloatingActionButton.Secondary" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -122,8 +121,8 @@
                     android:gravity="center"
                     android:text="8:50 - 10:20\nSAE\nAula"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textColor="@color/black"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"
+                    style="@style/Widget.Material3.FloatingActionButton.Secondary" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -134,8 +133,8 @@
                     android:gravity="center"
                     android:text="8:00 - 10:20\nOS\nA402"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textColor="@color/black"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"
+                    style="@style/Widget.Material3.FloatingActionButton.Secondary" />
             </TableRow>
 
 
@@ -154,8 +153,8 @@
                     android:gravity="center"
                     android:text="9:40 - 11:10\nPSK\nA202"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textColor="@color/black"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"
+                    style="@style/Widget.Material3.FloatingActionButton.Secondary" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -165,7 +164,8 @@
                     android:background="@drawable/rozvrhprazdne"
                     android:gravity="center"
                     android:text=""
-                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    style="@style/Widget.Material3.FloatingActionButton.Tertiary" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -176,8 +176,8 @@
                     android:gravity="center"
                     android:text="10:30 - 12:05\nDTB\nA401, A402"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textColor="@color/black"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"
+                    style="@style/Widget.Material3.FloatingActionButton.Secondary" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -188,8 +188,8 @@
                     android:gravity="center"
                     android:text="11:20 - 15:20\nWD\nA402"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textColor="@color/black"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"
+                    style="@style/Widget.Material3.FloatingActionButton.Secondary" />
             </TableRow>
 
             <TableRow
@@ -207,8 +207,8 @@
                     android:gravity="center"
                     android:text="12:10 - 12:55\nPSK\nAula"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textColor="@color/black"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"
+                    style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -218,7 +218,8 @@
                     android:background="@drawable/rozvrhprazdne"
                     android:gravity="center"
                     android:text=""
-                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    style="@style/Widget.Material3.FloatingActionButton.Tertiary" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -229,8 +230,8 @@
                     android:gravity="center"
                     android:text="12:10 - 14:30\nTZI\nA403"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textColor="@color/black"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"
+                    style="@style/Widget.Material3.FloatingActionButton.Secondary" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -241,7 +242,8 @@
                     android:gravity="center"
                     android:text=""
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"
+                    style="@style/Widget.Material3.FloatingActionButton.Tertiary" />
             </TableRow>
 
             <TableRow
@@ -259,8 +261,8 @@
                     android:gravity="center"
                     android:text="13:00 - 14:30\nZTB\nAula"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textColor="@color/black"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"
+                    style="@style/Widget.Material3.FloatingActionButton.Secondary" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -270,7 +272,8 @@
                     android:background="@drawable/rozvrhprazdne"
                     android:gravity="center"
                     android:text=""
-                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    style="@style/Widget.Material3.FloatingActionButton.Tertiary"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -280,7 +283,8 @@
                     android:background="@drawable/rozvrhprazdne"
                     android:gravity="center"
                     android:text=""
-                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    style="@style/Widget.Material3.FloatingActionButton.Tertiary"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -291,7 +295,8 @@
                     android:gravity="center"
                     android:text=""
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"
+                    style="@style/Widget.Material3.FloatingActionButton.Tertiary" />
             </TableRow>
 
             <TableRow
@@ -309,8 +314,8 @@
                     android:gravity="center"
                     android:text="14:40 - 17:00\nIoT\nA401"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textColor="@color/black"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"
+                    style="@style/Widget.Material3.FloatingActionButton.Secondary" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -320,7 +325,8 @@
                     android:background="@drawable/rozvrhprazdne"
                     android:gravity="center"
                     android:text=""
-                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    style="@style/Widget.Material3.FloatingActionButton.Tertiary" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -330,7 +336,8 @@
                     android:background="@drawable/rozvrhprazdne"
                     android:gravity="center"
                     android:text=""
-                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    style="@style/Widget.Material3.FloatingActionButton.Tertiary" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -341,7 +348,8 @@
                     android:gravity="center"
                     android:text=""
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"
+                    style="@style/Widget.Material3.FloatingActionButton.Tertiary"/>
             </TableRow>
 
 
@@ -361,7 +369,8 @@
             android:textSize="20sp"
             android:textStyle="bold"
             android:paddingTop="2sp"
-            app:layout_constraintTop_toBottomOf="@+id/rozvrh" />
+            app:layout_constraintTop_toBottomOf="@+id/rozvrh"
+            style="@style/Widget.Material3.Button.TonalButton"/>
 
         <TextView
             android:id="@+id/vlaky_casy"
@@ -376,7 +385,8 @@
             android:textSize="16sp"
             android:paddingBottom="10sp"
             app:layout_constraintTop_toBottomOf="@+id/vlaky"
-            tools:layout_editor_absoluteX="10dp" />
+            tools:layout_editor_absoluteX="10dp"
+            style="@style/Widget.Material3.Button.TonalButton"/>
 
         <TextView
             android:id="@+id/autobusy"
@@ -391,10 +401,10 @@
             android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:paddingTop="2sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/vlaky_casy" />
+            app:layout_constraintTop_toBottomOf="@+id/vlaky_casy"
+            style="@style/Widget.Material3.Button.TonalButton"/>
 
         <TextView
             android:id="@+id/autobusy_casy"
@@ -412,7 +422,8 @@
             android:paddingBottom="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/autobusy" />
+            app:layout_constraintTop_toBottomOf="@+id/autobusy"
+            style="@style/Widget.Material3.Button.TonalButton"/>
 
         <TextView
             android:layout_width="match_parent"

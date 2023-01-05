@@ -32,13 +32,12 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Predmet"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="0"
                 android:background="@drawable/skuskypredmet"
                 android:textStyle="bold"
                 android:gravity="center"
-                />
+                style="@style/Widget.Material3.FloatingActionButton.Primary"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -46,12 +45,12 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Termín"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="1"
                 android:background="#03A9F4"
                 android:gravity="center"
                 android:textStyle="bold"
+                style="@style/Widget.Material3.FloatingActionButton.Primary"
                 />
 
             <TextView
@@ -60,12 +59,12 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Čas + trieda"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:background="@drawable/skuskytrieda"
                 android:gravity="center"
                 android:textStyle="bold"
                 android:layout_column="2"
+                style="@style/Widget.Material3.FloatingActionButton.Primary"
                 />
         </TableRow>
 
@@ -82,11 +81,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Internet Vecí"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="0"
                 android:background="#3DDC84"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Secondary"
                 />
 
             <TextView
@@ -95,11 +94,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="23.1.2023"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="1"
                 android:background="#3DDC84"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Secondary"
                 />
 
             <TextView
@@ -108,11 +107,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="9:00, TBA"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:background="#3DDC84"
                 android:gravity="center"
-                android:layout_column="2" />
+                android:layout_column="2"
+                style="@style/Widget.Material3.FloatingActionButton.Secondary" />
         </TableRow>
 
 
@@ -130,11 +129,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Pedagogická a Soc. Kom."
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="0"
                 android:background="#D5D4D4"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                 />
 
             <TextView
@@ -143,11 +142,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="17.1.2023"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="1"
                 android:background="#D5D4D4"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                 />
 
             <TextView
@@ -156,11 +155,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="9:00, A129"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:background="#D5D4D4"
                 android:gravity="center"
-                android:layout_column="2" />
+                android:layout_column="2"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary" />
         </TableRow>
 
         <TableRow
@@ -176,11 +175,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Princípy PC"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="0"
                 android:background="#3DDC84"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Secondary"
                 />
 
             <TextView
@@ -189,11 +188,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="18.1.2023"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="1"
                 android:background="#3DDC84"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Secondary"
                 />
 
             <TextView
@@ -202,11 +201,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="10:15, A447"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:background="#3DDC84"
                 android:gravity="center"
-                android:layout_column="2" />
+                android:layout_column="2"
+                style="@style/Widget.Material3.FloatingActionButton.Secondary" />
         </TableRow>
 
         <TableRow
@@ -222,11 +221,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Prosociálna Výchova"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="0"
                 android:background="#D5D4D4"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                 />
 
             <TextView
@@ -235,11 +234,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="9.1.2023"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="1"
                 android:background="#D5D4D4"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                 />
 
             <TextView
@@ -248,11 +247,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="10:00, TBA"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:background="#D5D4D4"
                 android:gravity="center"
-                android:layout_column="2" />
+                android:layout_column="2"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary" />
         </TableRow>
 
         <TableRow
@@ -268,11 +267,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Sociologické Aspekty Edukácie"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="0"
                 android:background="#D5D4D4"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                 />
 
             <TextView
@@ -281,11 +280,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="25.1.2023"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="1"
                 android:background="#D5D4D4"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                 />
 
             <TextView
@@ -294,11 +293,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="9:30, on-line"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:background="#D5D4D4"
                 android:gravity="center"
-                android:layout_column="2" />
+                android:layout_column="2"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary" />
         </TableRow>
 
         <TableRow
@@ -314,11 +313,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Teoretické Základy Informatiky"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="0"
                 android:background="#D5D4D4"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                 />
 
             <TextView
@@ -327,11 +326,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="28.1.2023"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="1"
                 android:background="#D5D4D4"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                 />
 
             <TextView
@@ -340,11 +339,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="9:30, TBA"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:background="#D5D4D4"
                 android:gravity="center"
-                android:layout_column="2" />
+                android:layout_column="2"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary"/>
         </TableRow>
 
         <TableRow
@@ -360,11 +359,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Vizuálna Kultúra"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="0"
                 android:background="#3DDC84"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Secondary"
                 />
 
             <TextView
@@ -373,11 +372,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="30.1.2023"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="1"
                 android:background="#3DDC84"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Secondary"
                 />
 
             <TextView
@@ -386,11 +385,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="9:00, e-mail"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:background="#3DDC84"
                 android:gravity="center"
-                android:layout_column="2" />
+                android:layout_column="2"
+                style="@style/Widget.Material3.FloatingActionButton.Secondary" />
         </TableRow>
 
         <TableRow
@@ -406,11 +405,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Webový Dizajn"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="0"
                 android:background="#D5D4D4"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                 />
 
             <TextView
@@ -419,11 +418,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="23.1.2023"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="1"
                 android:background="#D5D4D4"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                 />
 
             <TextView
@@ -432,11 +431,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="9:00, TBA"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:background="#D5D4D4"
                 android:gravity="center"
-                android:layout_column="2" />
+                android:layout_column="2"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary" />
         </TableRow>
 
         <TableRow
@@ -452,11 +451,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Základné Témy Biblie"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="0"
                 android:background="#D5D4D4"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                 />
 
             <TextView
@@ -465,11 +464,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="30.1.2023"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="1"
                 android:background="#D5D4D4"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                 />
 
             <TextView
@@ -478,11 +477,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="8:30, on-line"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:background="#D5D4D4"
                 android:gravity="center"
-                android:layout_column="2" />
+                android:layout_column="2"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary" />
         </TableRow>
 
         <TableRow
@@ -498,11 +497,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Aplikácie Internetu A Vecí"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="0"
                 android:background="#3DDC84"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Secondary"
                 />
 
             <TextView
@@ -511,11 +510,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="23.1.2023"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="1"
                 android:background="#3DDC84"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Secondary"
                 />
 
             <TextView
@@ -524,11 +523,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="9:00, TBA"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:background="#3DDC84"
                 android:gravity="center"
-                android:layout_column="2" />
+                android:layout_column="2"
+                style="@style/Widget.Material3.FloatingActionButton.Secondary" />
         </TableRow>
 
         <TableRow
@@ -544,11 +543,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Databázové Systémy"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="0"
                 android:background="#D5D4D4"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                 />
 
             <TextView
@@ -557,11 +556,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="18.1.2023"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="1"
                 android:background="#D5D4D4"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                 />
 
             <TextView
@@ -570,11 +569,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="9:00, A447"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:background="#D5D4D4"
                 android:gravity="center"
-                android:layout_column="2" />
+                android:layout_column="2"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary" />
         </TableRow>
 
         <TableRow
@@ -590,11 +589,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Stáž A"
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="0"
                 android:background="@drawable/predmetstaz"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                 />
 
             <TextView
@@ -603,11 +602,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text=""
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:layout_column="1"
                 android:background="#D5D4D4"
                 android:gravity="center"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                 />
 
             <TextView
@@ -616,11 +615,11 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text=""
                 android:textSize="14sp"
-                android:textColor="@color/black"
                 android:layout_margin="1sp"
                 android:background="@drawable/triedaprazdne"
                 android:gravity="center"
-                android:layout_column="2" />
+                android:layout_column="2"
+                style="@style/Widget.Material3.FloatingActionButton.Tertiary" />
         </TableRow>
 
 
