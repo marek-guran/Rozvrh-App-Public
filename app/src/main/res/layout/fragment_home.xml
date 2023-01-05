@@ -365,12 +365,11 @@
             android:background="@drawable/vlakydomov"
             android:gravity="center"
             android:text="Vlaky Domov"
-            android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold"
             android:paddingTop="2sp"
             app:layout_constraintTop_toBottomOf="@+id/rozvrh"
-            style="@style/Widget.Material3.Button.TonalButton"/>
+            style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
 
         <TextView
             android:id="@+id/vlaky_casy"
@@ -381,12 +380,11 @@
             android:background="@drawable/casyvlakov"
             android:gravity="center"
             android:text="13:04 - 13:47\n15:05 - 15:47\n16:04 - 16:47\n17:05 - 17:47\n18:04 - 18:47"
-            android:textColor="@color/white"
             android:textSize="16sp"
             android:paddingBottom="10sp"
             app:layout_constraintTop_toBottomOf="@+id/vlaky"
             tools:layout_editor_absoluteX="10dp"
-            style="@style/Widget.Material3.Button.TonalButton"/>
+            style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
 
         <TextView
             android:id="@+id/autobusy"
@@ -398,13 +396,12 @@
             android:background="@drawable/autobusy"
             android:gravity="center"
             android:text="Autobusy Domov"
-            android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/vlaky_casy"
-            style="@style/Widget.Material3.Button.TonalButton"/>
+            style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
 
         <TextView
             android:id="@+id/autobusy_casy"
@@ -415,7 +412,6 @@
             android:background="@drawable/autobusycasy"
             android:textAlignment="center"
             android:text="25 - 13:52        10 - 14:00      11 - 14:03\n11 - 15:49        24 - 15:55      23 - 16:00\n03 - 16:51        23 - 16:59      24 - 17:12\n25 - 17:55        23 - 18:02      11 - 18:10\n25 - 18:49        03 - 18:53      24 - 18:55"
-            android:textColor="@color/white"
             android:textSize="16sp"
             android:paddingRight="10sp"
             android:paddingLeft="10sp"
@@ -423,7 +419,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/autobusy"
-            style="@style/Widget.Material3.Button.TonalButton"/>
+            style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
 
         <TextView
             android:layout_width="match_parent"
