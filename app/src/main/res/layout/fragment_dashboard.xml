@@ -245,7 +245,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="10:00, TBA"
+                android:text="10:00, A216"
                 android:textSize="14sp"
                 android:layout_margin="1sp"
                 android:background="#D5D4D4"
