@@ -11,20 +11,21 @@
         android:layout_height="wrap_content">
 
         <TableLayout
-
             android:id="@+id/rozvrh"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10sp"
-            android:layout_marginTop="10sp"
-            android:layout_marginRight="10sp"
             android:gravity="center"
             android:shrinkColumns="*"
-            android:stretchColumns="*">
+            android:stretchColumns="*"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
 
             <TableRow
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0sp"
                 android:layout_margin="1sp"
                 android:layout_weight="1"
@@ -32,6 +33,7 @@
                 >
 
                 <TextView
+                    style="@style/Widget.Material3.FloatingActionButton.Primary"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_column="0"
@@ -40,10 +42,11 @@
                     android:gravity="center"
                     android:text="Pondelok"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textStyle="bold"
-                    style="@style/Widget.Material3.FloatingActionButton.Primary" />
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
                 <TextView
+                    style="@style/Widget.Material3.FloatingActionButton.Primary"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_column="1"
@@ -52,10 +55,11 @@
                     android:gravity="center"
                     android:text="Utorok"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textStyle="bold"
-                    style="@style/Widget.Material3.FloatingActionButton.Primary" />
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
                 <TextView
+                    style="@style/Widget.Material3.FloatingActionButton.Primary"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_column="2"
@@ -64,10 +68,11 @@
                     android:gravity="center"
                     android:text="Streda"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textStyle="bold"
-                    style="@style/Widget.Material3.FloatingActionButton.Primary" />
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
                 <TextView
+                    style="@style/Widget.Material3.FloatingActionButton.Primary"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_column="3"
@@ -76,19 +81,20 @@
                     android:gravity="center"
                     android:text="Štvrtok"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textStyle="bold"
-                    style="@style/Widget.Material3.FloatingActionButton.Primary" />
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
 
             </TableRow>
 
             <TableRow
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0sp"
                 android:layout_margin="1sp"
                 android:layout_weight="1">
 
                 <TextView
+                    style="@style/Widget.Material3.FloatingActionButton.Secondary"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_column="0"
@@ -97,10 +103,10 @@
                     android:gravity="center"
                     android:text="8:50 - 9:35\nPSV\nA302"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="12sp"
-                    style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
+                    android:textSize="14sp" />
 
                 <TextView
+                    style="@style/Widget.Material3.FloatingActionButton.Secondary"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_column="1"
@@ -109,10 +115,10 @@
                     android:gravity="center"
                     android:text="10:30 - 12:50\nApp IoT\nA401"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="12sp"
-                    style="@style/Widget.Material3.FloatingActionButton.Secondary" />
+                    android:textSize="14sp" />
 
                 <TextView
+                    style="@style/Widget.Material3.FloatingActionButton.Secondary"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_column="2"
@@ -121,10 +127,10 @@
                     android:gravity="center"
                     android:text="8:50 - 10:20\nSAE\nAula"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="12sp"
-                    style="@style/Widget.Material3.FloatingActionButton.Secondary" />
+                    android:textSize="14sp" />
 
                 <TextView
+                    style="@style/Widget.Material3.FloatingActionButton.Secondary"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_column="3"
@@ -133,18 +139,18 @@
                     android:gravity="center"
                     android:text="8:00 - 10:20\nOS\nA402"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="12sp"
-                    style="@style/Widget.Material3.FloatingActionButton.Secondary" />
+                    android:textSize="14sp" />
             </TableRow>
 
 
             <TableRow
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0sp"
                 android:layout_margin="1sp"
                 android:layout_weight="1">
 
                 <TextView
+                    style="@style/Widget.Material3.FloatingActionButton.Secondary"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_column="0"
@@ -153,10 +159,10 @@
                     android:gravity="center"
                     android:text="9:40 - 11:10\nPSK\nA202"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="12sp"
-                    style="@style/Widget.Material3.FloatingActionButton.Secondary" />
+                    android:textSize="14sp" />
 
                 <TextView
+                    style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_column="1"
@@ -165,9 +171,10 @@
                     android:gravity="center"
                     android:text=""
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    style="@style/Widget.Material3.FloatingActionButton.Tertiary" />
+                    android:textSize="14sp" />
 
                 <TextView
+                    style="@style/Widget.Material3.FloatingActionButton.Secondary"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_column="2"
@@ -176,10 +183,10 @@
                     android:gravity="center"
                     android:text="10:30 - 12:05\nDTB\nA401, A402"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="12sp"
-                    style="@style/Widget.Material3.FloatingActionButton.Secondary" />
+                    android:textSize="14sp" />
 
                 <TextView
+                    style="@style/Widget.Material3.FloatingActionButton.Secondary"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_column="3"
@@ -188,17 +195,17 @@
                     android:gravity="center"
                     android:text="11:20 - 15:20\nWD\nA402"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="12sp"
-                    style="@style/Widget.Material3.FloatingActionButton.Secondary" />
+                    android:textSize="14sp" />
             </TableRow>
 
             <TableRow
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0sp"
                 android:layout_margin="1sp"
                 android:layout_weight="1">
 
                 <TextView
+                    style="@style/Widget.Material3.FloatingActionButton.Secondary"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_column="0"
@@ -207,10 +214,10 @@
                     android:gravity="center"
                     android:text="12:10 - 12:55\nPSK\nAula"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="12sp"
-                    style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
+                    android:textSize="14sp" />
 
                 <TextView
+                    style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_column="1"
@@ -219,9 +226,10 @@
                     android:gravity="center"
                     android:text=""
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    style="@style/Widget.Material3.FloatingActionButton.Tertiary" />
+                    android:textSize="14sp" />
 
                 <TextView
+                    style="@style/Widget.Material3.FloatingActionButton.Secondary"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_column="2"
@@ -230,10 +238,10 @@
                     android:gravity="center"
                     android:text="12:10 - 14:30\nTZI\nA403"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="12sp"
-                    style="@style/Widget.Material3.FloatingActionButton.Secondary" />
+                    android:textSize="14sp" />
 
                 <TextView
+                    style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_column="3"
@@ -242,17 +250,17 @@
                     android:gravity="center"
                     android:text=""
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="12sp"
-                    style="@style/Widget.Material3.FloatingActionButton.Tertiary" />
+                    android:textSize="14sp" />
             </TableRow>
 
             <TableRow
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0sp"
                 android:layout_margin="1sp"
                 android:layout_weight="1">
 
                 <TextView
+                    style="@style/Widget.Material3.FloatingActionButton.Secondary"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_column="0"
@@ -261,10 +269,10 @@
                     android:gravity="center"
                     android:text="13:00 - 14:30\nZTB\nAula"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="12sp"
-                    style="@style/Widget.Material3.FloatingActionButton.Secondary" />
+                    android:textSize="14sp" />
 
                 <TextView
+                    style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_column="1"
@@ -273,9 +281,10 @@
                     android:gravity="center"
                     android:text=""
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    style="@style/Widget.Material3.FloatingActionButton.Tertiary"/>
+                    android:textSize="14sp" />
 
                 <TextView
+                    style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_column="2"
@@ -284,9 +293,10 @@
                     android:gravity="center"
                     android:text=""
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    style="@style/Widget.Material3.FloatingActionButton.Tertiary"/>
+                    android:textSize="14sp" />
 
                 <TextView
+                    style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_column="3"
@@ -295,17 +305,17 @@
                     android:gravity="center"
                     android:text=""
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="12sp"
-                    style="@style/Widget.Material3.FloatingActionButton.Tertiary" />
+                    android:textSize="14sp" />
             </TableRow>
 
             <TableRow
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0sp"
                 android:layout_margin="1sp"
                 android:layout_weight="1">
 
                 <TextView
+                    style="@style/Widget.Material3.FloatingActionButton.Secondary"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_column="0"
@@ -314,10 +324,10 @@
                     android:gravity="center"
                     android:text="14:40 - 17:00\nIoT\nA401"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="12sp"
-                    style="@style/Widget.Material3.FloatingActionButton.Secondary" />
+                    android:textSize="14sp" />
 
                 <TextView
+                    style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_column="1"
@@ -326,9 +336,10 @@
                     android:gravity="center"
                     android:text=""
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    style="@style/Widget.Material3.FloatingActionButton.Tertiary" />
+                    android:textSize="14sp" />
 
                 <TextView
+                    style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_column="2"
@@ -337,9 +348,10 @@
                     android:gravity="center"
                     android:text=""
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    style="@style/Widget.Material3.FloatingActionButton.Tertiary" />
+                    android:textSize="14sp" />
 
                 <TextView
+                    style="@style/Widget.Material3.FloatingActionButton.Tertiary"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_column="3"
@@ -348,8 +360,7 @@
                     android:gravity="center"
                     android:text=""
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="12sp"
-                    style="@style/Widget.Material3.FloatingActionButton.Tertiary"/>
+                    android:textSize="14sp" />
             </TableRow>
 
 
@@ -383,7 +394,6 @@
             android:textSize="16sp"
             android:paddingBottom="10sp"
             app:layout_constraintTop_toBottomOf="@+id/vlaky"
-            tools:layout_editor_absoluteX="10dp"
             style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
 
         <TextView

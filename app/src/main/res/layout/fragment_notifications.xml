@@ -15,11 +15,14 @@
         android:stretchColumns="*"
         android:layout_marginRight="10sp"
         android:layout_marginLeft="10sp"
-        android:gravity="center">
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
 
         <TableRow
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="0sp"
             android:layout_margin="1sp"
             android:layout_weight="1">
@@ -55,7 +58,7 @@
         </TableRow>
 
         <TableRow
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="0sp"
             android:layout_margin="1sp"
             android:layout_weight="1"
@@ -92,7 +95,7 @@
 
 
         <TableRow
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="0sp"
             android:layout_margin="1sp"
             android:layout_weight="1"
@@ -127,7 +130,7 @@
         </TableRow>
 
         <TableRow
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="0sp"
             android:layout_margin="1sp"
             android:layout_weight="1"
@@ -162,7 +165,7 @@
         </TableRow>
 
         <TableRow
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="0sp"
             android:layout_margin="1sp"
             android:layout_weight="1"
@@ -197,7 +200,7 @@
         </TableRow>
 
         <TableRow
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="0sp"
             android:layout_margin="1sp"
             android:layout_weight="1"
@@ -232,7 +235,7 @@
         </TableRow>
 
         <TableRow
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="0sp"
             android:layout_margin="1sp"
             android:layout_weight="1"
@@ -267,7 +270,7 @@
         </TableRow>
 
         <TableRow
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="0sp"
             android:layout_margin="1sp"
             android:layout_weight="1"
@@ -302,7 +305,7 @@
         </TableRow>
 
         <TableRow
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="0sp"
             android:layout_margin="1sp"
             android:layout_weight="1"
@@ -337,7 +340,7 @@
         </TableRow>
 
         <TableRow
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="0sp"
             android:layout_margin="1sp"
             android:layout_weight="1"
@@ -372,7 +375,7 @@
         </TableRow>
 
         <TableRow
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="0sp"
             android:layout_margin="1sp"
             android:layout_weight="1"
@@ -407,7 +410,7 @@
         </TableRow>
 
         <TableRow
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="0sp"
             android:layout_margin="1sp"
             android:layout_weight="1"
@@ -442,7 +445,7 @@
         </TableRow>
 
         <TableRow
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="0sp"
             android:layout_margin="1sp"
             android:layout_weight="1"
