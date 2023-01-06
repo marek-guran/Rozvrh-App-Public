@@ -14,6 +14,9 @@ Example images below (App supports Material 3 theming).
 
 
 If you dont know hot to change App Icon, there are example videos how to do it:
+
 Normal Icon: https://youtu.be/bJjHgWjiAKw
+
 Adaptive Icon: https://youtu.be/LMQD7J2zaeM
+
 Monochromatic Icon (Material 3): https://youtu.be/Kje1KIwzwl0
