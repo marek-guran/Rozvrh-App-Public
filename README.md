@@ -11,3 +11,9 @@ Example images below (App supports Material 3 theming).
 <img src="https://user-images.githubusercontent.com/26904790/211028698-34770cc7-5fb5-46dd-8f57-239a5a0ece1d.png" width = "150px">
 <img src="https://user-images.githubusercontent.com/26904790/211028700-510f2380-371c-431b-956c-496b2c0ca61b.png" width = "150px">
 <img src="https://user-images.githubusercontent.com/26904790/211028701-30dbc67d-fe1a-4948-ac75-1cc7ed4a676a.png" width = "150px">
+
+
+If you dont know hot to change App Icon, there are example videos how to do it:
+Normal Icon: https://youtu.be/bJjHgWjiAKw
+Adaptive Icon: https://youtu.be/LMQD7J2zaeM
+Monochromatic Icon (Material 3): https://youtu.be/Kje1KIwzwl0
