@@ -10,8 +10,8 @@ android {
         applicationId "com.marekguran.rozvrh"
         minSdk 23
         targetSdk 33
-        versionCode 26
-        versionName "3.5"
+        versionCode 27
+        versionName "3.6"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
