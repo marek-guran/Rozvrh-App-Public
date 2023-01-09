@@ -56,7 +56,7 @@
                         android:layout_width="55dp"
                         android:layout_height="55dp"
                         android:layout_gravity="center"
-                        android:text="✓"
+                        android:text=""
                         android:textSize="34sp"
                         android:gravity="center"
                         android:background="@drawable/circle_bg"
