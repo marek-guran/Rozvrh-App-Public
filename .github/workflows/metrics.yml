@@ -12,13 +12,9 @@ jobs:
           committer_token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: Europe/Bratislava
 
-          plugin_lines: yes
-
-          plugin_traffic: yes
-
-          plugin_habits: yes
-          plugin_habits_charts: yes
-
-          plugin_followup: yes
+          template: repository
+          user: marek-guran
+          repo: Rozvrh-App
+          
           
           plugin_languages: yes
