@@ -1,3 +1,9 @@
+![Screenshot_20230109-192146_Rozvrh](https://user-images.githubusercontent.com/26904790/211380588-4ffa5c30-1d94-452b-b1cb-cd2791aa63db.png)
+![Screenshot_20230109-192148_Rozvrh](https://user-images.githubusercontent.com/26904790/211380592-597a8813-7501-4c4f-944b-dcb274a1b7c5.png)
+![Screenshot_20230109-192150_Rozvrh](https://user-images.githubusercontent.com/26904790/211380595-f5a9b017-956a-42d3-b142-75c4bd5066ff.png)
+![Screenshot_20230109-192202_Rozvrh](https://user-images.githubusercontent.com/26904790/211380597-dcd69676-eccc-4a9b-a116-4d2a0f991f95.png)
+![Screenshot_20230109-192203_Rozvrh](https://user-images.githubusercontent.com/26904790/211380601-5a739751-4073-4ff4-801d-44a497700df4.png)
+![Screenshot_20230109-192206_Rozvrh](https://user-images.githubusercontent.com/26904790/211380603-0b455943-a61d-4699-90d2-35bc1d1dde0d.png)
 # Rozvrh-App
 
 My personal App to track my school schedule with exams and my marks.
