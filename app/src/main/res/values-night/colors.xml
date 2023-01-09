@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="seed">#3DDC84</color>
-    <color name="md_theme_dark_primary">#43E188</color>
+    <color name="md_theme_dark_primary">#2E2E2E</color>
     <color name="md_theme_dark_onPrimary">#00391C</color>
     <color name="md_theme_dark_primaryContainer">#004B70</color>
     <color name="md_theme_dark_onPrimaryContainer">#66FEA2</color>
     <color name="md_theme_dark_secondary">#8DCDFF</color>
     <color name="md_theme_dark_onSecondary">#00344F</color>
     <color name="md_theme_dark_secondaryContainer">#00522B</color>
-    <color name="md_theme_dark_onSecondaryContainer">#03A9F4</color>
+    <color name="md_theme_dark_onSecondaryContainer">@color/white</color>
     <color name="md_theme_dark_tertiary">#FFB692</color>
     <color name="md_theme_dark_onTertiary">#562000</color>
     <color name="md_theme_dark_tertiaryContainer">#9A9999</color>
@@ -20,7 +20,7 @@
     <color name="md_theme_dark_onBackground">#FFD9E4</color>
     <color name="md_theme_dark_surface">#3E0021</color>
     <color name="md_theme_dark_onSurface">#FFD9E4</color>
-    <color name="md_theme_dark_surfaceVariant">#414942</color>
+    <color name="md_theme_dark_surfaceVariant">#2E2E2E</color>
     <color name="md_theme_dark_onSurfaceVariant">#C1C9BF</color>
     <color name="md_theme_dark_outline">#8B938A</color>
     <color name="md_theme_dark_inverseOnSurface">#3E0021</color>
@@ -38,4 +38,6 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="circle">#FF000000</color>
 </resources>

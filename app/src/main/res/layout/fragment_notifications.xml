@@ -1,484 +1,636 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.notifications.NotificationsFragment" >
+    tools:context=".ui.dashboard.DashboardFragment" >
 
-
-    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:stretchColumns="*"
-        android:layout_marginRight="10sp"
-        android:layout_marginLeft="10sp"
-        android:gravity="center"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_height="match_parent">
 
-
-        <TableRow
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="0sp"
-            android:layout_margin="1sp"
-            android:layout_weight="1">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="20dp"
+                style="@style/Widget.Material3.CardView.Filled"
+                android:padding="18dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="90dp"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Prosociálna Výchova"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="20sp"/>
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/background_rounded_small"
+                    android:backgroundTint="@android:color/transparent">
+
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="center"
+                        android:text="✓"
+                        android:textSize="34sp"
+                        android:gravity="center"
+                        android:background="@drawable/circle_bg"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:padding="5dp"
+                        style="@style/Widget.Material3.FloatingActionButton.Primary" />
+                </FrameLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="20dp"
+                style="@style/Widget.Material3.CardView.Filled"
+                android:padding="18dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="90dp"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pedagogická a Sociálna Komunikácia"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/background_rounded_small"
+                    android:backgroundTint="@android:color/transparent">
+
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="center"
+                        android:text=""
+                        android:textSize="34sp"
+                        android:gravity="center"
+                        android:background="@drawable/circle_bg"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:padding="5dp"
+                        style="@style/Widget.Material3.FloatingActionButton.Primary" />
+                </FrameLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="20dp"
+                style="@style/Widget.Material3.CardView.Filled"
+                android:padding="18dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="90dp"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Databázové Systémy"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/background_rounded_small"
+                    android:backgroundTint="@android:color/transparent">
+
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="center"
+                        android:text=""
+                        android:textSize="34sp"
+                        android:gravity="center"
+                        android:background="@drawable/circle_bg"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:padding="5dp"
+                        style="@style/Widget.Material3.FloatingActionButton.Primary" />
+                </FrameLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="20dp"
+                style="@style/Widget.Material3.CardView.Filled"
+                android:padding="18dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="90dp"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Princípy PC"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/background_rounded_small"
+                    android:backgroundTint="@android:color/transparent">
+
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="center"
+                        android:text="A"
+                        android:textSize="34sp"
+                        android:gravity="center"
+                        android:background="@drawable/circle_bg"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:padding="5dp"
+                        style="@style/Widget.Material3.FloatingActionButton.Primary" />
+                </FrameLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="20dp"
+                style="@style/Widget.Material3.CardView.Filled"
+                android:padding="18dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="90dp"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Webový Dizajn"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/background_rounded_small"
+                    android:backgroundTint="@android:color/transparent">
+
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="center"
+                        android:text=""
+                        android:textSize="34sp"
+                        android:gravity="center"
+                        android:background="@drawable/circle_bg"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:padding="5dp"
+                        style="@style/Widget.Material3.FloatingActionButton.Primary" />
+                </FrameLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="20dp"
+                style="@style/Widget.Material3.CardView.Filled"
+                android:padding="18dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="90dp"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Internet Vecí"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/background_rounded_small"
+                    android:backgroundTint="@android:color/transparent">
+
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="center"
+                        android:text="B"
+                        android:textSize="34sp"
+                        android:gravity="center"
+                        android:background="@drawable/circle_bg"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:padding="5dp"
+                        style="@style/Widget.Material3.FloatingActionButton.Primary" />
+                </FrameLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="20dp"
+                style="@style/Widget.Material3.CardView.Filled"
+                android:padding="18dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="90dp"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Aplikácie Internetu a Vecí"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/background_rounded_small"
+                    android:backgroundTint="@android:color/transparent">
+
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="center"
+                        android:text="A"
+                        android:textSize="34sp"
+                        android:gravity="center"
+                        android:background="@drawable/circle_bg"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:padding="5dp"
+                        style="@style/Widget.Material3.FloatingActionButton.Primary" />
+                </FrameLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="20dp"
+                style="@style/Widget.Material3.CardView.Filled"
+                android:padding="18dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="90dp"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sociologické Aspekty Edukácie"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/background_rounded_small"
+                    android:backgroundTint="@android:color/transparent">
+
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="center"
+                        android:text=""
+                        android:textSize="34sp"
+                        android:gravity="center"
+                        android:background="@drawable/circle_bg"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:padding="5dp"
+                        style="@style/Widget.Material3.FloatingActionButton.Primary" />
+                </FrameLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="20dp"
+                style="@style/Widget.Material3.CardView.Filled"
+                android:padding="18dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="90dp"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Teoretické Základy Informatiky"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/background_rounded_small"
+                    android:backgroundTint="@android:color/transparent">
+
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="center"
+                        android:text=""
+                        android:textSize="34sp"
+                        android:gravity="center"
+                        android:background="@drawable/circle_bg"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:padding="5dp"
+                        style="@style/Widget.Material3.FloatingActionButton.Primary" />
+                </FrameLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="20dp"
+                style="@style/Widget.Material3.CardView.Filled"
+                android:padding="18dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="90dp"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Základné Témy Biblie"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/background_rounded_small"
+                    android:backgroundTint="@android:color/transparent">
+
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="center"
+                        android:text=""
+                        android:textSize="34sp"
+                        android:gravity="center"
+                        android:background="@drawable/circle_bg"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:padding="5dp"
+                        style="@style/Widget.Material3.FloatingActionButton.Primary" />
+                </FrameLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="20dp"
+                style="@style/Widget.Material3.CardView.Filled"
+                android:padding="18dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="90dp"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Vizuálna Kultúra"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/background_rounded_small"
+                    android:backgroundTint="@android:color/transparent">
+
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="center"
+                        android:text="A"
+                        android:textSize="34sp"
+                        android:gravity="center"
+                        android:background="@drawable/circle_bg"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:padding="5dp"
+                        style="@style/Widget.Material3.FloatingActionButton.Primary" />
+                </FrameLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="20dp"
+                style="@style/Widget.Material3.CardView.Filled"
+                android:padding="18dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="90dp"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Stáž A"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="34sp"/>
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/background_rounded_small"
+                    android:backgroundTint="@android:color/transparent">
+
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="center"
+                        android:text=""
+                        android:textSize="34sp"
+                        android:gravity="center"
+                        android:background="@drawable/circle_bg"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:padding="5dp"
+                        style="@style/Widget.Material3.FloatingActionButton.Primary" />
+                </FrameLayout>
+            </com.google.android.material.card.MaterialCardView>
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Predmet"
-                android:textSize="14sp"
-                android:layout_margin="1sp"
-                android:layout_column="0"
-                android:background="@drawable/skuskypredmet"
-                android:textStyle="bold"
-                android:gravity="center"
-                style="@style/Widget.Material3.FloatingActionButton.Primary"
-                />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Hodnotenie"
-                android:textSize="14sp"
-                android:layout_margin="1sp"
-                android:layout_column="1"
-                android:background="@drawable/skuskytrieda"
-                android:gravity="center"
-                android:textStyle="bold"
-                style="@style/Widget.Material3.FloatingActionButton.Primary"
-                />
-
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="0sp"
-            android:layout_margin="1sp"
-            android:layout_weight="1"
-            >
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Internet Vecí"
-                android:textSize="14sp"
-                android:layout_margin="1sp"
-                android:layout_column="0"
-                android:background="#3DDC84"
-                android:gravity="center"
-                style="@style/Widget.Material3.FloatingActionButton.Secondary"
-                />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="B"
-                android:textSize="14sp"
-                android:layout_margin="1sp"
-                android:layout_column="1"
-                android:background="#3DDC84"
-                android:gravity="center"
-                style="@style/Widget.Material3.FloatingActionButton.Secondary"
-                />
-
-        </TableRow>
+                android:layout_height="match_parent"
+                android:text="\n\n\n\n\n\n\n"/>
 
 
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="0sp"
-            android:layout_margin="1sp"
-            android:layout_weight="1"
-            >
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Pedagogická a sociálna komunikácia"
-                android:textSize="14sp"
-                android:layout_margin="1sp"
-                android:layout_column="0"
-                android:background="#D5D4D4"
-                android:gravity="center"
-                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
-                />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text=""
-                android:textSize="14sp"
-                android:layout_margin="1sp"
-                android:layout_column="1"
-                android:background="#D5D4D4"
-                android:gravity="center"
-                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
-                />
-
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="0sp"
-            android:layout_margin="1sp"
-            android:layout_weight="1"
-            >
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Princípy PC"
-                android:textSize="14sp"
-                android:layout_margin="1sp"
-                android:layout_column="0"
-                android:background="#3DDC84"
-                android:gravity="center"
-                style="@style/Widget.Material3.FloatingActionButton.Secondary"
-                />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="A"
-                android:textSize="14sp"
-                android:layout_margin="1sp"
-                android:layout_column="1"
-                android:background="#3DDC84"
-                android:gravity="center"
-                style="@style/Widget.Material3.FloatingActionButton.Secondary"
-                />
-
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="0sp"
-            android:layout_margin="1sp"
-            android:layout_weight="1"
-            >
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Prosociálna Výchova"
-                android:textSize="14sp"
-                android:layout_margin="1sp"
-                android:layout_column="0"
-                android:background="#D5D4D4"
-                android:gravity="center"
-                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
-                />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text=""
-                android:textSize="14sp"
-                android:layout_margin="1sp"
-                android:layout_column="1"
-                android:background="#D5D4D4"
-                android:gravity="center"
-                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
-                />
-
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="0sp"
-            android:layout_margin="1sp"
-            android:layout_weight="1"
-            >
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Sociologické Aspekty Edukácie"
-                android:textSize="14sp"
-                android:layout_margin="1sp"
-                android:layout_column="0"
-                android:background="#D5D4D4"
-                android:gravity="center"
-                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
-                />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text=""
-                android:textSize="14sp"
-                android:layout_margin="1sp"
-                android:layout_column="1"
-                android:background="#D5D4D4"
-                android:gravity="center"
-                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
-                />
-
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="0sp"
-            android:layout_margin="1sp"
-            android:layout_weight="1"
-            >
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Teoretické Základy Informatiky"
-                android:textSize="14sp"
-                android:layout_margin="1sp"
-                android:layout_column="0"
-                android:background="#D5D4D4"
-                android:gravity="center"
-                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
-                />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text=""
-                android:textSize="14sp"
-                android:layout_margin="1sp"
-                android:layout_column="1"
-                android:background="#D5D4D4"
-                android:gravity="center"
-                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
-                />
-
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="0sp"
-            android:layout_margin="1sp"
-            android:layout_weight="1"
-            >
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Vizuálna Kultúra"
-                android:textSize="14sp"
-                android:layout_margin="1sp"
-                android:layout_column="0"
-                android:background="#3DDC84"
-                android:gravity="center"
-                style="@style/Widget.Material3.FloatingActionButton.Secondary"
-                />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="A"
-                android:textSize="14sp"
-                android:layout_margin="1sp"
-                android:layout_column="1"
-                android:background="#3DDC84"
-                android:gravity="center"
-                style="@style/Widget.Material3.FloatingActionButton.Secondary"
-                />
-
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="0sp"
-            android:layout_margin="1sp"
-            android:layout_weight="1"
-            >
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Webový Dizajn"
-                android:textSize="14sp"
-                android:layout_margin="1sp"
-                android:layout_column="0"
-                android:background="#D5D4D4"
-                android:gravity="center"
-                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
-                />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text=""
-                android:textSize="14sp"
-                android:layout_margin="1sp"
-                android:layout_column="1"
-                android:background="#D5D4D4"
-                android:gravity="center"
-                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
-                />
-
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="0sp"
-            android:layout_margin="1sp"
-            android:layout_weight="1"
-            >
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Základné Témy Biblie"
-                android:textSize="14sp"
-                android:layout_margin="1sp"
-                android:layout_column="0"
-                android:background="#D5D4D4"
-                android:gravity="center"
-                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
-                />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text=""
-                android:textSize="14sp"
-                android:layout_margin="1sp"
-                android:layout_column="1"
-                android:background="#D5D4D4"
-                android:gravity="center"
-                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
-                />
-
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="0sp"
-            android:layout_margin="1sp"
-            android:layout_weight="1"
-            >
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Aplikácie Internetu A Vecí"
-                android:textSize="14sp"
-                android:layout_margin="1sp"
-                android:layout_column="0"
-                android:background="#3DDC84"
-                android:gravity="center"
-                style="@style/Widget.Material3.FloatingActionButton.Secondary"
-                />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="B"
-                android:textSize="14sp"
-                android:layout_margin="1sp"
-                android:layout_column="1"
-                android:background="#3DDC84"
-                android:gravity="center"
-                style="@style/Widget.Material3.FloatingActionButton.Secondary"
-                />
-
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="0sp"
-            android:layout_margin="1sp"
-            android:layout_weight="1"
-            >
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Databázové Systémy"
-                android:textSize="14sp"
-                android:layout_margin="1sp"
-                android:layout_column="0"
-                android:background="#D5D4D4"
-                android:gravity="center"
-                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
-                />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text=""
-                android:textSize="14sp"
-                android:layout_margin="1sp"
-                android:layout_column="1"
-                android:background="#D5D4D4"
-                android:gravity="center"
-                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
-                />
-
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="0sp"
-            android:layout_margin="1sp"
-            android:layout_weight="1"
-            >
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Stáž A"
-                android:textSize="14sp"
-                android:layout_margin="1sp"
-                android:layout_column="0"
-                android:background="@drawable/predmetstaz"
-                android:gravity="center"
-                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
-                />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text=""
-                android:textSize="14sp"
-                android:layout_margin="1sp"
-                android:layout_column="1"
-                android:background="@drawable/triedaprazdne"
-                android:gravity="center"
-                style="@style/Widget.Material3.FloatingActionButton.Tertiary"
-                />
-
-        </TableRow>
-
-
-    </TableLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>
