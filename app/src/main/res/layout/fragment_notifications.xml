@@ -104,16 +104,17 @@
                     android:backgroundTint="@android:color/transparent">
 
                     <TextView
+                        style="@style/Widget.Material3.FloatingActionButton.Primary"
                         android:layout_width="55dp"
                         android:layout_height="55dp"
                         android:layout_gravity="center"
-                        android:text=""
-                        android:textSize="34sp"
-                        android:gravity="center"
                         android:background="@drawable/circle_bg"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:gravity="center"
                         android:padding="5dp"
-                        style="@style/Widget.Material3.FloatingActionButton.Primary" />
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="34sp"
+                        tools:ignore="SpeakableTextPresentCheck" />
                 </FrameLayout>
             </com.google.android.material.card.MaterialCardView>
 
@@ -155,16 +156,17 @@
                     android:backgroundTint="@android:color/transparent">
 
                     <TextView
+                        style="@style/Widget.Material3.FloatingActionButton.Primary"
                         android:layout_width="55dp"
                         android:layout_height="55dp"
                         android:layout_gravity="center"
-                        android:text=""
-                        android:textSize="34sp"
-                        android:gravity="center"
                         android:background="@drawable/circle_bg"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:gravity="center"
                         android:padding="5dp"
-                        style="@style/Widget.Material3.FloatingActionButton.Primary" />
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="34sp"
+                        tools:ignore="SpeakableTextPresentCheck" />
                 </FrameLayout>
             </com.google.android.material.card.MaterialCardView>
 
@@ -255,16 +257,17 @@
                     android:backgroundTint="@android:color/transparent">
 
                     <TextView
+                        style="@style/Widget.Material3.FloatingActionButton.Primary"
                         android:layout_width="55dp"
                         android:layout_height="55dp"
                         android:layout_gravity="center"
-                        android:text=""
-                        android:textSize="34sp"
-                        android:gravity="center"
                         android:background="@drawable/circle_bg"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:gravity="center"
                         android:padding="5dp"
-                        style="@style/Widget.Material3.FloatingActionButton.Primary" />
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="34sp"
+                        tools:ignore="SpeakableTextPresentCheck" />
                 </FrameLayout>
             </com.google.android.material.card.MaterialCardView>
 
@@ -405,16 +408,17 @@
                     android:backgroundTint="@android:color/transparent">
 
                     <TextView
+                        style="@style/Widget.Material3.FloatingActionButton.Primary"
                         android:layout_width="55dp"
                         android:layout_height="55dp"
                         android:layout_gravity="center"
-                        android:text=""
-                        android:textSize="34sp"
-                        android:gravity="center"
                         android:background="@drawable/circle_bg"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:gravity="center"
                         android:padding="5dp"
-                        style="@style/Widget.Material3.FloatingActionButton.Primary" />
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="34sp"
+                        tools:ignore="SpeakableTextPresentCheck" />
                 </FrameLayout>
             </com.google.android.material.card.MaterialCardView>
 
@@ -455,16 +459,17 @@
                     android:backgroundTint="@android:color/transparent">
 
                     <TextView
+                        style="@style/Widget.Material3.FloatingActionButton.Primary"
                         android:layout_width="55dp"
                         android:layout_height="55dp"
                         android:layout_gravity="center"
-                        android:text=""
-                        android:textSize="34sp"
-                        android:gravity="center"
                         android:background="@drawable/circle_bg"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:gravity="center"
                         android:padding="5dp"
-                        style="@style/Widget.Material3.FloatingActionButton.Primary" />
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="34sp"
+                        tools:ignore="SpeakableTextPresentCheck" />
                 </FrameLayout>
             </com.google.android.material.card.MaterialCardView>
 
