@@ -13,7 +13,7 @@ Example images below (App supports Material 3 theming).
 <img src="https://user-images.githubusercontent.com/26904790/211380603-0b455943-a61d-4699-90d2-35bc1d1dde0d.png" width = "150px">
 
 
-If you dont know hot to change App Icon, there are example videos how to do it:
+If you dont know how to change App Icon, there are example videos how to do it:
 
 Normal Icon: https://youtu.be/bJjHgWjiAKw
 
