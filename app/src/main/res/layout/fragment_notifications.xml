@@ -264,7 +264,7 @@
                         android:background="@drawable/circle_bg"
                         android:gravity="center"
                         android:padding="5dp"
-                        android:text=""
+                        android:text="A"
                         android:textAppearance="?android:attr/textAppearanceLarge"
                         android:textSize="34sp"
                         tools:ignore="SpeakableTextPresentCheck" />
