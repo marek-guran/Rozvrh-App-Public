@@ -40,4 +40,7 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="circle">#FFFFFFFF</color>
+
+    <color name="active_day">#438CDA</color>
+    <color name="inactive_day">#959595</color>
 </resources>

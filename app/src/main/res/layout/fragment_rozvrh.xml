@@ -1,458 +1,555 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginBottom="70dp"
+    android:orientation="vertical"
     tools:context=".RozvrhFragment">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <HorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <TableLayout
-            android:id="@+id/rozvrh"
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:shrinkColumns="*"
-            android:stretchColumns="*"
-            android:layout_marginLeft="5sp"
-            android:layout_marginRight="5sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            android:orientation="horizontal">
 
+            <Button
+                android:id="@+id/btnMonday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Pondelok"
+                android:textSize="18sp"/>
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="0sp"
-                android:layout_margin="1sp"
-                android:layout_weight="1"
+            <Button
+                android:id="@+id/btnTuesday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Utorok"
+                android:textSize="18sp"/>
 
-                >
+            <Button
+                android:id="@+id/btnWednesday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Streda"
+                android:textSize="18sp"/>
 
-                <TextView
-                    style="@style/Widget.Material3.FloatingActionButton.Primary"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_column="0"
-                    android:layout_margin="1sp"
-                    android:background="@drawable/rozvrhdni"
-                    android:gravity="center"
-                    android:text="Pondelok"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    tools:ignore="TouchTargetSizeCheck" />
+            <Button
+                android:id="@+id/btnThursday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Štvrtok"
+                android:textSize="18sp" />
 
-                <TextView
-                    style="@style/Widget.Material3.FloatingActionButton.Primary"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_column="1"
-                    android:layout_margin="1sp"
-                    android:background="@drawable/rozvrhdni"
-                    android:gravity="center"
-                    android:text="Utorok"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    tools:ignore="TouchTargetSizeCheck" />
+            <Button
+                android:id="@+id/btnFriday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Piatok"
+                android:textSize="18sp"/>
+        </LinearLayout>
+    </HorizontalScrollView>
 
-                <TextView
-                    style="@style/Widget.Material3.FloatingActionButton.Primary"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_column="2"
-                    android:layout_margin="1sp"
-                    android:background="@drawable/rozvrhdni"
-                    android:gravity="center"
-                    android:text="Streda"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    tools:ignore="TouchTargetSizeCheck" />
+    <!-- Start Pondelok -->
 
-                <TextView
-                    style="@style/Widget.Material3.FloatingActionButton.Primary"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_column="3"
-                    android:layout_margin="1sp"
-                    android:background="@drawable/rozvrhdni"
-                    android:gravity="center"
-                    android:text="Štvrtok"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    tools:ignore="TouchTargetSizeCheck"/>
+    <ScrollView
+        android:id="@+id/rozvrhPondelok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
 
-
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="0sp"
-                android:layout_margin="1sp"
-                android:layout_weight="1">
-
-                <TextView
-                    style="@style/Widget.Material3.FloatingActionButton.Secondary"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_column="0"
-                    android:layout_margin="1sp"
-                    android:background="@drawable/rozvrhoveokno"
-                    android:gravity="center"
-                    android:text="8:50 - 9:35\nPSV\nA302"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="14sp" />
-
-                <TextView
-                    style="@style/Widget.Material3.FloatingActionButton.Secondary"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_column="1"
-                    android:layout_margin="1sp"
-                    android:background="@drawable/rozvrhoveokno"
-                    android:gravity="center"
-                    android:text="10:30 - 12:50\nApp IoT\nA401"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="14sp" />
-
-                <TextView
-                    style="@style/Widget.Material3.FloatingActionButton.Secondary"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_column="2"
-                    android:layout_margin="1sp"
-                    android:background="@drawable/rozvrhoveokno"
-                    android:gravity="center"
-                    android:text="8:50 - 10:20\nSAE\nAula"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="14sp" />
-
-                <TextView
-                    style="@style/Widget.Material3.FloatingActionButton.Secondary"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_column="3"
-                    android:layout_margin="1sp"
-                    android:background="@drawable/rozvrhoveokno"
-                    android:gravity="center"
-                    android:text="8:00 - 10:20\nOS\nA402"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="14sp" />
-            </TableRow>
-
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="0sp"
-                android:layout_margin="1sp"
-                android:layout_weight="1">
-
-                <TextView
-                    style="@style/Widget.Material3.FloatingActionButton.Secondary"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_column="0"
-                    android:layout_margin="1sp"
-                    android:background="@drawable/rozvrhoveokno"
-                    android:gravity="center"
-                    android:text="9:40 - 11:10\nPSK\nA202"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="14sp" />
-
-                <TextView
-                    style="@style/Widget.Material3.FloatingActionButton.Tertiary"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_column="1"
-                    android:layout_margin="1sp"
-                    android:background="@drawable/rozvrhprazdne"
-                    android:gravity="center"
-                    android:text=""
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="14sp"
-                    tools:ignore="SpeakableTextPresentCheck" />
-
-                <TextView
-                    style="@style/Widget.Material3.FloatingActionButton.Secondary"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_column="2"
-                    android:layout_margin="1sp"
-                    android:background="@drawable/rozvrhoveokno"
-                    android:gravity="center"
-                    android:text="10:30 - 12:05\nDTB\nA401, A402"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="14sp" />
-
-                <TextView
-                    style="@style/Widget.Material3.FloatingActionButton.Secondary"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_column="3"
-                    android:layout_margin="1sp"
-                    android:background="@drawable/rozvrhoveokno"
-                    android:gravity="center"
-                    android:text="11:20 - 15:20\nWD\nA402"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="14sp" />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="0sp"
-                android:layout_margin="1sp"
-                android:layout_weight="1">
-
-                <TextView
-                    style="@style/Widget.Material3.FloatingActionButton.Secondary"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_column="0"
-                    android:layout_margin="1sp"
-                    android:background="@drawable/rozvrhoveokno"
-                    android:gravity="center"
-                    android:text="12:10 - 12:55\nPSK\nAula"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="14sp" />
-
-                <TextView
-                    style="@style/Widget.Material3.FloatingActionButton.Tertiary"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_column="1"
-                    android:layout_margin="1sp"
-                    android:background="@drawable/rozvrhprazdne"
-                    android:gravity="center"
-                    android:text=""
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="14sp"
-                    tools:ignore="SpeakableTextPresentCheck"/>
-
-                <TextView
-                    style="@style/Widget.Material3.FloatingActionButton.Secondary"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_column="2"
-                    android:layout_margin="1sp"
-                    android:background="@drawable/rozvrhoveokno"
-                    android:gravity="center"
-                    android:text="12:10 - 14:30\nTZI\nA403"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="14sp" />
-
-                <TextView
-                    style="@style/Widget.Material3.FloatingActionButton.Tertiary"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_column="3"
-                    android:layout_margin="1sp"
-                    android:background="@drawable/rozvrhprazdne"
-                    android:gravity="center"
-                    android:text=""
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="14sp"
-                    tools:ignore="SpeakableTextPresentCheck"/>
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="0sp"
-                android:layout_margin="1sp"
-                android:layout_weight="1">
-
-                <TextView
-                    style="@style/Widget.Material3.FloatingActionButton.Secondary"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_column="0"
-                    android:layout_margin="1sp"
-                    android:background="@drawable/rozvrhoveokno"
-                    android:gravity="center"
-                    android:text="13:00 - 14:30\nZTB\nAula"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="14sp" />
-
-                <TextView
-                    style="@style/Widget.Material3.FloatingActionButton.Tertiary"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_column="1"
-                    android:layout_margin="1sp"
-                    android:background="@drawable/rozvrhprazdne"
-                    android:gravity="center"
-                    android:text=""
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="14sp"
-                    tools:ignore="SpeakableTextPresentCheck"/>
-
-                <TextView
-                    style="@style/Widget.Material3.FloatingActionButton.Tertiary"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_column="2"
-                    android:layout_margin="1sp"
-                    android:background="@drawable/rozvrhprazdne"
-                    android:gravity="center"
-                    android:text=""
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="14sp"
-                    tools:ignore="SpeakableTextPresentCheck" />
-
-                <TextView
-                    style="@style/Widget.Material3.FloatingActionButton.Tertiary"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_column="3"
-                    android:layout_margin="1sp"
-                    android:background="@drawable/rozvrhprazdne"
-                    android:gravity="center"
-                    android:text=""
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="14sp"
-                    tools:ignore="SpeakableTextPresentCheck"/>
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="0sp"
-                android:layout_margin="1sp"
-                android:layout_weight="1">
-
-                <TextView
-                    style="@style/Widget.Material3.FloatingActionButton.Secondary"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_column="0"
-                    android:layout_margin="1sp"
-                    android:background="@drawable/rozvrhoveokno"
-                    android:gravity="center"
-                    android:text="14:40 - 17:00\nIoT\nA401"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="14sp" />
-
-                <TextView
-                    style="@style/Widget.Material3.FloatingActionButton.Tertiary"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_column="1"
-                    android:layout_margin="1sp"
-                    android:background="@drawable/rozvrhprazdne"
-                    android:gravity="center"
-                    android:text=""
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="14sp"
-                    tools:ignore="SpeakableTextPresentCheck"/>
-
-                <TextView
-                    style="@style/Widget.Material3.FloatingActionButton.Tertiary"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_column="2"
-                    android:layout_margin="1sp"
-                    android:background="@drawable/rozvrhprazdne"
-                    android:gravity="center"
-                    android:text=""
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="14sp"
-                    tools:ignore="SpeakableTextPresentCheck" />
-
-                <TextView
-                    style="@style/Widget.Material3.FloatingActionButton.Tertiary"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_column="3"
-                    android:layout_margin="1sp"
-                    android:background="@drawable/rozvrhprazdne"
-                    android:gravity="center"
-                    android:text=""
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textSize="14sp"
-                    tools:ignore="SpeakableTextPresentCheck"/>
-            </TableRow>
-
-
-        </TableLayout>
-
-        <TextView
-            android:id="@+id/vlaky"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10sp"
-            android:layout_marginTop="40sp"
-            android:layout_marginRight="10sp"
-            android:background="@drawable/vlakydomov"
-            android:gravity="center"
-            android:text="Vlaky Domov"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:paddingTop="2sp"
-            app:layout_constraintTop_toBottomOf="@+id/rozvrh"
-            style="@style/Widget.Material3.FloatingActionButton.Secondary"
-            tools:ignore="TouchTargetSizeCheck"/>
+            android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/vlaky_casy"
+            <androidx.cardview.widget.CardView
+                style="@style/Widget.Material3.CardView.Filled"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/PONcas1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="18dp"
+                        android:paddingTop="5dp"
+                        android:paddingEnd="18dp"
+                        android:text="🕐 8:50 - 9:35"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/PONpredmet1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/PONcas1"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:paddingBottom="1dp"
+                        android:text="Prosociálna Komunikácia"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/PONucitel1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/PONpredmet1"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:text="👤Okálová"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/PONucitel1"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:paddingBottom="5dp"
+                        android:text="🚪A302"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/Widget.Material3.CardView.Filled"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/PONcas2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="18dp"
+                        android:paddingTop="5dp"
+                        android:paddingEnd="18dp"
+                        android:text="🕐 9:40 - 11:10"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/PONpredmet2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/PONcas2"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:paddingBottom="1dp"
+                        android:text="Pedagogická a Sociálna Komunikácia"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/PONucitel2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/PONpredmet2"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:text="👤Bellová"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/PONucitel2"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:paddingBottom="5dp"
+                        android:text="🚪A202"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/Widget.Material3.CardView.Filled"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/PONcas3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="18dp"
+                        android:paddingTop="5dp"
+                        android:paddingEnd="18dp"
+                        android:text="🕐 9:40 - 10:25"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/PONpredmet3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/PONcas3"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:paddingBottom="1dp"
+                        android:text="Prosociálna Výchova"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/PONucitel3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/PONpredmet3"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:text="👤Jablonský, Okálová"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/PONucitel3"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:paddingBottom="5dp"
+                        android:text="🚪Aula"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/Widget.Material3.CardView.Filled"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/PONcas4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="18dp"
+                        android:paddingTop="5dp"
+                        android:paddingEnd="18dp"
+                        android:text="🕐 12:10 - 12:55"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/PONpredmet4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/PONcas4"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:paddingBottom="1dp"
+                        android:text="Pedagogická a Sociálna Komunikácia"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/PONucitel4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/PONpredmet4"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:text="👤Tišťanová"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/PONucitel4"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:paddingBottom="5dp"
+                        android:text="🚪Aula"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/Widget.Material3.CardView.Filled"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/PONcas5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="18dp"
+                        android:paddingTop="5dp"
+                        android:paddingEnd="18dp"
+                        android:text="🕐 13:00 - 14:30"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/PONpredmet5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/PONcas5"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:paddingBottom="1dp"
+                        android:text="Základné Témy Biblie"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/PONucitel5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/PONpredmet5"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:text="👤Kľuska, Kľusková"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/PONucitel5"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:paddingBottom="5dp"
+                        android:text="🚪Aula"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/Widget.Material3.CardView.Filled"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/PONcas6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="18dp"
+                        android:paddingTop="5dp"
+                        android:paddingEnd="18dp"
+                        android:text="🕐 14:40 - 17:00"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/PONpredmet6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/PONcas6"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:paddingBottom="1dp"
+                        android:text="Internet Vecí"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/PONucitel6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/PONpredmet6"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:text="👤Pillár"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/PONucitel6"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:paddingBottom="5dp"
+                        android:text="🚪A401"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!-- End Pondelok -->
+
+    <!-- Start Utorok -->
+
+    <ScrollView
+        android:id="@+id/rozvrhUtorok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10sp"
-            android:layout_marginRight="10sp"
-            android:background="@drawable/casyvlakov"
-            android:gravity="center"
-            android:text="13:04 - 13:47\n15:05 - 15:47\n16:04 - 16:47\n17:05 - 17:47\n18:04 - 18:47"
-            android:textSize="16sp"
-            android:paddingBottom="10sp"
-            app:layout_constraintTop_toBottomOf="@+id/vlaky"
-            style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
+            android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/autobusy"
+            <androidx.cardview.widget.CardView
+                style="@style/Widget.Material3.CardView.Filled"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/UTOcas1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="18dp"
+                        android:paddingTop="5dp"
+                        android:paddingEnd="18dp"
+                        android:text="🕐 10:30 - 12:50"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/UTOpredmet1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/UTOcas1"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:paddingBottom="1dp"
+                        android:text="Aplikácie Internetu Vecí"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/UTOucitel1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/UTOpredmet1"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:text="👤Pillár"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/UTOucitel1"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:paddingBottom="5dp"
+                        android:text="🚪A401"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!-- End Utorok -->
+
+    <!-- Start Streda -->
+
+    <ScrollView
+        android:id="@+id/rozvrhStreda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10sp"
-            android:layout_marginTop="20sp"
-            android:layout_marginRight="10sp"
-            android:background="@drawable/autobusy"
-            android:gravity="center"
-            android:text="Autobusy Domov"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/vlaky_casy"
-            style="@style/Widget.Material3.FloatingActionButton.Secondary"
-            tools:ignore="TouchTargetSizeCheck"/>
+            android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/autobusy_casy"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10sp"
-            android:layout_marginRight="10sp"
-            android:background="@drawable/autobusycasy"
-            android:textAlignment="center"
-            android:text="25 - 13:52      10 - 14:00      11 - 14:03\n11 - 15:49      24 - 15:55      23 - 16:00\n03 - 16:51      23 - 16:59      24 - 17:12\n25 - 17:55      23 - 18:02      11 - 18:10\n25 - 18:49      03 - 18:53      24 - 18:55"
-            android:textSize="16sp"
-            android:paddingRight="10sp"
-            android:paddingLeft="10sp"
-            android:paddingBottom="10sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/autobusy"
-            style="@style/Widget.Material3.FloatingActionButton.Secondary"/>
+            <androidx.cardview.widget.CardView
+                style="@style/Widget.Material3.CardView.Filled"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="20dp">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="\n\n\n\n\n\n\n"
-            app:layout_constraintTop_toBottomOf="@+id/autobusy_casy"
-            tools:ignore="SpeakableTextPresentCheck"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <TextView
+                        android:id="@+id/STRcas1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="18dp"
+                        android:paddingTop="5dp"
+                        android:paddingEnd="18dp"
+                        android:text="🕐 8:50 - 10:20"
+                        android:textSize="16sp" />
 
-</ScrollView>
+                    <TextView
+                        android:id="@+id/STRpredmet1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/STRcas1"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:paddingBottom="1dp"
+                        android:text="Sociologické Aspekty Edukácie"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/STRucitel1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/STRpredmet1"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:text="👤Emmerová"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/STRucitel1"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:paddingBottom="5dp"
+                        android:text="🚪Aula"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!-- End Streda -->
+</LinearLayout>
