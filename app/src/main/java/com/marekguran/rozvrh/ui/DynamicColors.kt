@@ -1,11 +1,11 @@
-package com.marekguran.rozvrh.ui;
+package com.marekguran.rozvrh.ui
 
-import android.app.Application;
+import android.app.Application
+import com.google.android.material.color.DynamicColors
 
-public class DynamicColors extends Application {
-    @Override
-    public void onCreate() {
-        super.onCreate();
-        com.google.android.material.color.DynamicColors.applyToActivitiesIfAvailable(this);
+class DynamicColors : Application() {
+    override fun onCreate() {
+        super.onCreate()
+        DynamicColors.applyToActivitiesIfAvailable(this)
     }
 }

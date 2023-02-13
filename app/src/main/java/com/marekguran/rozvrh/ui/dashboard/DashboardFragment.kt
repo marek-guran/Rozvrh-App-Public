@@ -1,34 +1,33 @@
-package com.marekguran.rozvrh.ui.dashboard;
+package com.marekguran.rozvrh.ui.dashboard
 
-import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.TextView;
-import androidx.annotation.NonNull;
-import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModelProvider;
-import com.marekguran.rozvrh.databinding.FragmentDashboardBinding;
+import android.os.Bundle
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProvider
+import com.marekguran.rozvrh.databinding.FragmentDashboardBinding
 
-public class DashboardFragment extends Fragment {
-
-private FragmentDashboardBinding binding;
-
-    public View onCreateView(@NonNull LayoutInflater inflater,
-            ViewGroup container, Bundle savedInstanceState) {
-        DashboardViewModel dashboardViewModel =
-                new ViewModelProvider(this).get(DashboardViewModel.class);
-
-    binding = FragmentDashboardBinding.inflate(inflater, container, false);
-    View root = binding.getRoot();
-
-
-        return root;
+class DashboardFragment : Fragment() {
+    private var binding: FragmentDashboardBinding? = null
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?, savedInstanceState: Bundle?
+    ): View? {
+        val dashboardViewModel =
+            ViewModelProvider(this).get(
+                DashboardViewModel::class.java
+            )
+        binding = FragmentDashboardBinding.inflate(
+            inflater,
+            container,
+            false
+        )
+        return binding!!.root
     }
 
-@Override
-    public void onDestroyView() {
-        super.onDestroyView();
-        binding = null;
+    override fun onDestroyView() {
+        super.onDestroyView()
+        binding = null
     }
 }

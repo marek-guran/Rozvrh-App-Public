@@ -1,31 +1,28 @@
-package com.marekguran.rozvrh;
+package com.marekguran.rozvrh
 
-import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import androidx.fragment.app.Fragment;
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.lifecycle.ViewModelProvider;
+import android.os.Bundle
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import androidx.fragment.app.Fragment
+import com.marekguran.rozvrh.databinding.FragmentZadaniaBinding
 
-public class Zadania extends Fragment {
-
-    private com.marekguran.rozvrh.databinding.FragmentZadaniaBinding binding;
-
-    public View onCreateView(@NonNull LayoutInflater inflater,
-                             ViewGroup container, Bundle savedInstanceState) {
-
-        binding = com.marekguran.rozvrh.databinding.FragmentZadaniaBinding.inflate(inflater, container, false);
-        View root = binding.getRoot();
-
-
-        return root;
+class Zadania : Fragment() {
+    private var binding: FragmentZadaniaBinding? = null
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?, savedInstanceState: Bundle?
+    ): View? {
+        binding = FragmentZadaniaBinding.inflate(
+            inflater,
+            container,
+            false
+        )
+        return binding!!.root
     }
 
-    @Override
-    public void onDestroyView() {
-        super.onDestroyView();
-        binding = null;
+    override fun onDestroyView() {
+        super.onDestroyView()
+        binding = null
     }
 }

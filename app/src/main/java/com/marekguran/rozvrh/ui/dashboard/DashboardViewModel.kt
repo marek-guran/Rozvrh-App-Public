@@ -1,19 +1,17 @@
-package com.marekguran.rozvrh.ui.dashboard;
+package com.marekguran.rozvrh.ui.dashboard
 
-import androidx.lifecycle.LiveData;
-import androidx.lifecycle.MutableLiveData;
-import androidx.lifecycle.ViewModel;
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
 
-public class DashboardViewModel extends ViewModel {
+class DashboardViewModel : ViewModel() {
+    private val mText: MutableLiveData<String>
 
-    private final MutableLiveData<String> mText;
-
-    public DashboardViewModel() {
-        mText = new MutableLiveData<>();
-        mText.setValue("This is dashboard fragment");
+    init {
+        mText = MutableLiveData()
+        mText.value = "This is dashboard fragment"
     }
 
-    public LiveData<String> getText() {
-        return mText;
-    }
+    val text: LiveData<String>
+        get() = mText
 }
