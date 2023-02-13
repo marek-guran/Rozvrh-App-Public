@@ -1,23 +1,19 @@
-package com.marekguran.rozvrh.ui.home
+package com.marekguran.rozvrh
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
-import com.marekguran.rozvrh.databinding.FragmentHomeBinding
+import com.marekguran.rozvrh.databinding.FragmentHodnoteniaBinding
 
-class HomeFragment : Fragment() {
-    private var binding: FragmentHomeBinding? = null
+class HodnoteniaFragment : Fragment() {
+    private var binding: FragmentHodnoteniaBinding? = null
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?, savedInstanceState: Bundle?
     ): View? {
-        val homeViewModel = ViewModelProvider(this).get(
-            HomeViewModel::class.java
-        )
-        binding = FragmentHomeBinding.inflate(
+        binding = FragmentHodnoteniaBinding.inflate(
             inflater,
             container,
             false

@@ -5,15 +5,15 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.marekguran.rozvrh.databinding.FragmentZadaniaBinding
+import com.marekguran.rozvrh.databinding.FragmentSkuskyBinding
 
-class Zadania : Fragment() {
-    private var binding: FragmentZadaniaBinding? = null
+class SkuskyFragment : Fragment() {
+    private var binding: FragmentSkuskyBinding? = null
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?, savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentZadaniaBinding.inflate(
+        binding = FragmentSkuskyBinding.inflate(
             inflater,
             container,
             false

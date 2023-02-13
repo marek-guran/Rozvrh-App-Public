@@ -1,24 +1,19 @@
-package com.marekguran.rozvrh.ui.dashboard
+package com.marekguran.rozvrh
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
-import com.marekguran.rozvrh.databinding.FragmentDashboardBinding
+import com.marekguran.rozvrh.databinding.FragmentRozvrhBinding
 
-class DashboardFragment : Fragment() {
-    private var binding: FragmentDashboardBinding? = null
+class RozvrhFragment : Fragment() {
+    private var binding: FragmentRozvrhBinding? = null
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?, savedInstanceState: Bundle?
     ): View? {
-        val dashboardViewModel =
-            ViewModelProvider(this).get(
-                DashboardViewModel::class.java
-            )
-        binding = FragmentDashboardBinding.inflate(
+        binding = FragmentRozvrhBinding.inflate(
             inflater,
             container,
             false

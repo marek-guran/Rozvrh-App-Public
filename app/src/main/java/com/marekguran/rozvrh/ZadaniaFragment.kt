@@ -1,24 +1,19 @@
-package com.marekguran.rozvrh.ui.notifications
+package com.marekguran.rozvrh
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
-import com.marekguran.rozvrh.databinding.FragmentNotificationsBinding
+import com.marekguran.rozvrh.databinding.FragmentZadaniaBinding
 
-class NotificationsFragment : Fragment() {
-    private var binding: FragmentNotificationsBinding? = null
+class ZadaniaFragment : Fragment() {
+    private var binding: FragmentZadaniaBinding? = null
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?, savedInstanceState: Bundle?
     ): View? {
-        val notificationsViewModel =
-            ViewModelProvider(this).get(
-                NotificationsViewModel::class.java
-            )
-        binding = FragmentNotificationsBinding.inflate(
+        binding = FragmentZadaniaBinding.inflate(
             inflater,
             container,
             false
