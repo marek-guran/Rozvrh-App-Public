@@ -3,6 +3,7 @@
 My personal App to track my school schedule with exams and my marks.
 
 Features:
+
 • When launched, app shows current day
 
 • Material You and predictive back gestures support
