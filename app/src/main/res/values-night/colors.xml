@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="seed">#3DDC84</color>
-    <color name="md_theme_dark_primary">#2E2E2E</color>
+    <color name="md_theme_dark_primary">#D5D4D4</color>
     <color name="md_theme_dark_onPrimary">#00391C</color>
     <color name="md_theme_dark_primaryContainer">#004B70</color>
     <color name="md_theme_dark_onPrimaryContainer">#66FEA2</color>
     <color name="md_theme_dark_secondary">#8DCDFF</color>
     <color name="md_theme_dark_onSecondary">#00344F</color>
-    <color name="md_theme_dark_secondaryContainer">#00522B</color>
+    <color name="md_theme_dark_secondaryContainer">#000000</color>
     <color name="md_theme_dark_onSecondaryContainer">@color/white</color>
     <color name="md_theme_dark_tertiary">#FFB692</color>
     <color name="md_theme_dark_onTertiary">#562000</color>
@@ -43,4 +43,5 @@
 
     <color name="active_day">#3D93E3</color>
     <color name="inactive_day">#A1A1A1</color>
+    <color name="text_hodnotenia">#000000</color>
 </resources>

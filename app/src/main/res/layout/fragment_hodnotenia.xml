@@ -36,7 +36,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Prosociálna Výchova"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
                         android:textSize="20sp"/>
                 </LinearLayout>
 
@@ -57,12 +56,12 @@
                         android:layout_height="55dp"
                         android:layout_gravity="center"
                         android:text="B"
+                        android:textColor="@color/text_hodnotenia"
                         android:textSize="34sp"
                         android:gravity="center"
                         android:background="@drawable/circle_bg"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
                         android:padding="5dp"
-                        style="@style/Widget.Material3.FloatingActionButton.Primary" />
+                         />
                 </FrameLayout>
             </com.google.android.material.card.MaterialCardView>
 
@@ -87,7 +86,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Pedagogická a Sociálna Komunikácia"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
                         android:textSize="20sp" />
                 </LinearLayout>
 
@@ -104,7 +102,7 @@
                     android:backgroundTint="@android:color/transparent">
 
                     <TextView
-                        style="@style/Widget.Material3.FloatingActionButton.Primary"
+
                         android:layout_width="55dp"
                         android:layout_height="55dp"
                         android:layout_gravity="center"
@@ -112,7 +110,7 @@
                         android:gravity="center"
                         android:padding="5dp"
                         android:text="C"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/text_hodnotenia"
                         android:textSize="34sp"
                         tools:ignore="SpeakableTextPresentCheck" />
                 </FrameLayout>
@@ -139,7 +137,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Databázové Systémy"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
                         android:textSize="20sp" />
                 </LinearLayout>
 
@@ -156,7 +153,7 @@
                     android:backgroundTint="@android:color/transparent">
 
                     <TextView
-                        style="@style/Widget.Material3.FloatingActionButton.Primary"
+
                         android:layout_width="55dp"
                         android:layout_height="55dp"
                         android:layout_gravity="center"
@@ -164,7 +161,7 @@
                         android:gravity="center"
                         android:padding="5dp"
                         android:text="B"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/text_hodnotenia"
                         android:textSize="34sp"
                         tools:ignore="SpeakableTextPresentCheck" />
                 </FrameLayout>
@@ -190,7 +187,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Princípy PC"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
                         android:textSize="20sp" />
                 </LinearLayout>
 
@@ -211,12 +207,12 @@
                         android:layout_height="55dp"
                         android:layout_gravity="center"
                         android:text="A"
+                        android:textColor="@color/text_hodnotenia"
                         android:textSize="34sp"
                         android:gravity="center"
                         android:background="@drawable/circle_bg"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
                         android:padding="5dp"
-                        style="@style/Widget.Material3.FloatingActionButton.Primary" />
+                         />
                 </FrameLayout>
             </com.google.android.material.card.MaterialCardView>
 
@@ -240,7 +236,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Webový Dizajn"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
                         android:textSize="20sp" />
                 </LinearLayout>
 
@@ -257,7 +252,7 @@
                     android:backgroundTint="@android:color/transparent">
 
                     <TextView
-                        style="@style/Widget.Material3.FloatingActionButton.Primary"
+
                         android:layout_width="55dp"
                         android:layout_height="55dp"
                         android:layout_gravity="center"
@@ -265,7 +260,7 @@
                         android:gravity="center"
                         android:padding="5dp"
                         android:text="A"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/text_hodnotenia"
                         android:textSize="34sp"
                         tools:ignore="SpeakableTextPresentCheck" />
                 </FrameLayout>
@@ -291,7 +286,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Internet Vecí"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
                         android:textSize="20sp" />
                 </LinearLayout>
 
@@ -312,12 +306,12 @@
                         android:layout_height="55dp"
                         android:layout_gravity="center"
                         android:text="B"
+                        android:textColor="@color/text_hodnotenia"
                         android:textSize="34sp"
                         android:gravity="center"
                         android:background="@drawable/circle_bg"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
                         android:padding="5dp"
-                        style="@style/Widget.Material3.FloatingActionButton.Primary" />
+                         />
                 </FrameLayout>
             </com.google.android.material.card.MaterialCardView>
 
@@ -341,7 +335,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Aplikácie Internetu a Vecí"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
                         android:textSize="20sp" />
                 </LinearLayout>
 
@@ -362,12 +355,12 @@
                         android:layout_height="55dp"
                         android:layout_gravity="center"
                         android:text="A"
+                        android:textColor="@color/text_hodnotenia"
                         android:textSize="34sp"
                         android:gravity="center"
                         android:background="@drawable/circle_bg"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
                         android:padding="5dp"
-                        style="@style/Widget.Material3.FloatingActionButton.Primary" />
+                         />
                 </FrameLayout>
             </com.google.android.material.card.MaterialCardView>
 
@@ -391,7 +384,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Sociologické Aspekty Edukácie"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
                         android:textSize="20sp" />
                 </LinearLayout>
 
@@ -408,7 +400,7 @@
                     android:backgroundTint="@android:color/transparent">
 
                     <TextView
-                        style="@style/Widget.Material3.FloatingActionButton.Primary"
+
                         android:layout_width="55dp"
                         android:layout_height="55dp"
                         android:layout_gravity="center"
@@ -416,7 +408,7 @@
                         android:gravity="center"
                         android:padding="5dp"
                         android:text="C"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/text_hodnotenia"
                         android:textSize="34sp"
                         tools:ignore="SpeakableTextPresentCheck" />
                 </FrameLayout>
@@ -442,7 +434,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Teoretické Základy Informatiky"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
                         android:textSize="20sp" />
                 </LinearLayout>
 
@@ -459,7 +450,7 @@
                     android:backgroundTint="@android:color/transparent">
 
                     <TextView
-                        style="@style/Widget.Material3.FloatingActionButton.Primary"
+
                         android:layout_width="55dp"
                         android:layout_height="55dp"
                         android:layout_gravity="center"
@@ -467,7 +458,7 @@
                         android:gravity="center"
                         android:padding="5dp"
                         android:text=""
-                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/text_hodnotenia"
                         android:textSize="34sp"
                         tools:ignore="SpeakableTextPresentCheck" />
                 </FrameLayout>
@@ -493,7 +484,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Základné Témy Biblie"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
                         android:textSize="20sp" />
                 </LinearLayout>
 
@@ -513,13 +503,13 @@
                         android:layout_width="55dp"
                         android:layout_height="55dp"
                         android:layout_gravity="center"
-                        android:text=""
+                        android:text="✓"
+                        android:textColor="@color/text_hodnotenia"
                         android:textSize="34sp"
                         android:gravity="center"
                         android:background="@drawable/circle_bg"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
                         android:padding="5dp"
-                        style="@style/Widget.Material3.FloatingActionButton.Primary" />
+                         />
                 </FrameLayout>
             </com.google.android.material.card.MaterialCardView>
 
@@ -543,7 +533,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Vizuálna Kultúra"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
                         android:textSize="20sp" />
                 </LinearLayout>
 
@@ -564,12 +553,12 @@
                         android:layout_height="55dp"
                         android:layout_gravity="center"
                         android:text="A"
+                        android:textColor="@color/text_hodnotenia"
                         android:textSize="34sp"
                         android:gravity="center"
                         android:background="@drawable/circle_bg"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
                         android:padding="5dp"
-                        style="@style/Widget.Material3.FloatingActionButton.Primary" />
+                         />
                 </FrameLayout>
             </com.google.android.material.card.MaterialCardView>
 
@@ -593,7 +582,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Stáž A"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
                         android:textSize="20sp" />
                 </LinearLayout>
 
@@ -614,12 +602,12 @@
                         android:layout_height="55dp"
                         android:layout_gravity="center"
                         android:text=""
+                        android:textColor="@color/text_hodnotenia"
                         android:textSize="34sp"
                         android:gravity="center"
                         android:background="@drawable/circle_bg"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
                         android:padding="5dp"
-                        style="@style/Widget.Material3.FloatingActionButton.Primary" />
+                         />
                 </FrameLayout>
             </com.google.android.material.card.MaterialCardView>
 

@@ -10,7 +10,8 @@
 
     <HorizontalScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -66,6 +67,7 @@
         android:id="@+id/rozvrhPondelok"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:scrollbars="none"
         android:visibility="gone">
 
         <LinearLayout
@@ -415,6 +417,7 @@
         android:id="@+id/rozvrhUtorok"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:scrollbars="none"
         android:visibility="gone">
 
         <LinearLayout
@@ -487,6 +490,7 @@
         android:id="@+id/rozvrhStreda"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:scrollbars="none"
         android:visibility="gone">
 
         <LinearLayout

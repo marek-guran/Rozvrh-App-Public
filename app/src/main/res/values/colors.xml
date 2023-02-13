@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="seed">#3DDC84</color>
-    <color name="md_theme_light_primary">#D5D4D4</color>
+    <color name="md_theme_light_primary">#2E2E2E</color>
     <color name="md_theme_light_onPrimary">#FFFFFF</color>
     <color name="md_theme_light_primaryContainer">#03A9F4</color>
     <color name="md_theme_light_onPrimaryContainer">#00210E</color>
     <color name="md_theme_light_secondary">#006493</color>
     <color name="md_theme_light_onSecondary">#FFFFFF</color>
-    <color name="md_theme_light_secondaryContainer">#3DDC84</color>
+    <color name="md_theme_light_secondaryContainer">#B5B5B5</color>
     <color name="md_theme_light_onSecondaryContainer">#001E30</color>
     <color name="md_theme_light_tertiary">#9F4200</color>
     <color name="md_theme_light_onTertiary">#FFFFFF</color>
@@ -43,4 +43,5 @@
 
     <color name="active_day">#438CDA</color>
     <color name="inactive_day">#959595</color>
+    <color name="text_hodnotenia">#FFFFFF</color>
 </resources>
