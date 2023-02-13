@@ -4,8 +4,11 @@ My personal App to track my school schedule with exams and my marks.
 
 Features:
 • When launched, app shows current day
+
 • Material You and predictive back gestures support
+
 • Simple to edit (Android Studio or any other IDE)
+
 • Easy to use and fast
 
 !!! App is hardcoded, if you want to change content, you will have to use IDE !!!
