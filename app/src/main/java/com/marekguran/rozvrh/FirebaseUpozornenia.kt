@@ -38,7 +38,7 @@ class FirebaseUpozornenia : FirebaseMessagingService() {
     private inner class SendTokenTask : AsyncTask<String, Void, Boolean>() {
         override fun doInBackground(vararg tokens: String): Boolean {
             // Replace YOUR_SERVER_KEY with your FCM server key
-            val apiKey = "AAAA6j3Kywg:APA91bF6uKQFK1dGPvYHMJW7DPR-G9JhX6i3hD6h9CCrj22Y2sUVwvhCOqRChuqILpAfY-Nl_8TENRJg8SGlheSNif6dtb5HMWDSP5r-YtKldA1acNwA-a0cP9rIHcogiwskfzKUVxOC"
+            val apiKey = "Your API key"
 
             // Set up the HTTP request
             val url = "https://fcm.googleapis.com/v1/projects/moj-rozvrh/registrationTokens/${tokens[0]}"
