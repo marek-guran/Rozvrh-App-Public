@@ -9,7 +9,7 @@ Features:
 • When launched, app shows current day for schedule\
 • Material You and predictive back gestures support\
 • Simple to edit (Android Studio or any other IDE)\
-• Easy to use and fast\
+• Easy to use and fast response times
 
 ```
 For sucessfull builds you will need to create realtime database in Firebase and download google-services.json
