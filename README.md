@@ -11,15 +11,10 @@ Features:
 • Simple to edit (Android Studio or any other IDE)\
 • Easy to use and fast response times
 
-```
-For sucessfull builds you will need to create realtime database in Firebase and download google-services.json
-and put it inside of app or src (dont remember it where it has to be, I had it in both folders) folder.
-```
+# Warning
+**1. For sucessfull builds you will need to create realtime database in Firebase and download google-services.json and put it inside of app or src (dont remember it where it has to be, I had it in both folders) folder.**\
+**2. App is hardcoded, if you want to change content, you will have to use IDE for schedule and transport (Rozvrh and Domov) tab.**
 
-```
-App is hardcoded, if you want to change content, 
-you will have to use IDE for schedule and transport (Rozvrh and Domov) tab.
-```
 
 # App screenshots
 <details> 
