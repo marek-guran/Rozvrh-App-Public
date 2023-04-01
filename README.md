@@ -1,4 +1,4 @@
-# Rozvrh-App (No longer updated since I have moved to private builds working with Firebase)
+# Rozvrh-App (Archived version which was completely offline, without firebase)
 
 My personal App to track my school schedule with exams and my marks.
 
