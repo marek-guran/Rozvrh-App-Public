@@ -1,6 +1,7 @@
 # Rozvrh-App-Public
 
-My personal App to track my school working with firebase.
+My personal App to track my school working with firebase.\
+Old offline version is in: https://github.com/marek-guran/Rozvrh-App-Public/tree/archived-non-firebase
 
 Features:
 
