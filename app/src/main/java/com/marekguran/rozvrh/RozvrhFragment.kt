@@ -21,6 +21,8 @@ class RozvrhFragment : Fragment() {
     private lateinit var rozvrhPondelok: ScrollView
     private lateinit var rozvrhUtorok: ScrollView
     private lateinit var rozvrhStreda: ScrollView
+    private lateinit var rozvrhStvrtok: ScrollView
+    private lateinit var rozvrhPiatok: ScrollView
 
     private val dateFormat = SimpleDateFormat("EEEE", Locale.ENGLISH)
     override fun onCreateView(
@@ -40,6 +42,8 @@ class RozvrhFragment : Fragment() {
         rozvrhPondelok = binding!!.root.findViewById(R.id.rozvrhPondelok)
         rozvrhUtorok = binding!!.root.findViewById(R.id.rozvrhUtorok)
         rozvrhStreda = binding!!.root.findViewById(R.id.rozvrhStreda)
+        rozvrhStvrtok = binding!!.root.findViewById(R.id.rozvrhStvrtok)
+        rozvrhPiatok = binding!!.root.findViewById(R.id.rozvrhPiatok)
 
         val calendar = Calendar.getInstance()
         val dayOfWeek = dateFormat.format(calendar.time)
@@ -49,6 +53,8 @@ class RozvrhFragment : Fragment() {
                 rozvrhPondelok.visibility = View.VISIBLE
                 rozvrhUtorok.visibility = View.GONE
                 rozvrhStreda.visibility = View.GONE
+                rozvrhStvrtok.visibility = View.GONE
+                rozvrhPiatok.visibility = View.GONE
 
                 btnMonday.isSelected = true
                 btnTuesday.isSelected = false
@@ -66,6 +72,8 @@ class RozvrhFragment : Fragment() {
                 rozvrhPondelok.visibility = View.GONE
                 rozvrhUtorok.visibility = View.VISIBLE
                 rozvrhStreda.visibility = View.GONE
+                rozvrhStvrtok.visibility = View.GONE
+                rozvrhPiatok.visibility = View.GONE
 
                 btnMonday.isSelected = false
                 btnTuesday.isSelected = true
@@ -83,6 +91,8 @@ class RozvrhFragment : Fragment() {
                 rozvrhPondelok.visibility = View.GONE
                 rozvrhUtorok.visibility = View.GONE
                 rozvrhStreda.visibility = View.VISIBLE
+                rozvrhStvrtok.visibility = View.GONE
+                rozvrhPiatok.visibility = View.GONE
 
                 btnMonday.isSelected = false
                 btnTuesday.isSelected = false
@@ -96,10 +106,50 @@ class RozvrhFragment : Fragment() {
                 btnThursday.setBackgroundColor(resources.getColor(R.color.inactive_day))
                 btnFriday.setBackgroundColor(resources.getColor(R.color.inactive_day))
             }
+            "Thursday" -> {
+                rozvrhPondelok.visibility = View.GONE
+                rozvrhUtorok.visibility = View.GONE
+                rozvrhStreda.visibility = View.GONE
+                rozvrhStvrtok.visibility = View.VISIBLE
+                rozvrhPiatok.visibility = View.GONE
+
+                btnMonday.isSelected = false
+                btnTuesday.isSelected = false
+                btnWednesday.isSelected = false
+                btnThursday.isSelected = true
+                btnFriday.isSelected = false
+
+                btnMonday.setBackgroundColor(resources.getColor(R.color.inactive_day))
+                btnTuesday.setBackgroundColor(resources.getColor(R.color.inactive_day))
+                btnWednesday.setBackgroundColor(resources.getColor(R.color.inactive_day))
+                btnThursday.setBackgroundColor(resources.getColor(R.color.active_day))
+                btnFriday.setBackgroundColor(resources.getColor(R.color.inactive_day))
+            }
+            "Friday" -> {
+                rozvrhPondelok.visibility = View.GONE
+                rozvrhUtorok.visibility = View.GONE
+                rozvrhStreda.visibility = View.GONE
+                rozvrhStvrtok.visibility = View.GONE
+                rozvrhPiatok.visibility = View.VISIBLE
+
+                btnMonday.isSelected = false
+                btnTuesday.isSelected = false
+                btnWednesday.isSelected = false
+                btnThursday.isSelected = false
+                btnFriday.isSelected = true
+
+                btnMonday.setBackgroundColor(resources.getColor(R.color.inactive_day))
+                btnTuesday.setBackgroundColor(resources.getColor(R.color.inactive_day))
+                btnWednesday.setBackgroundColor(resources.getColor(R.color.inactive_day))
+                btnThursday.setBackgroundColor(resources.getColor(R.color.inactive_day))
+                btnFriday.setBackgroundColor(resources.getColor(R.color.active_day))
+            }
             else -> {
                 rozvrhPondelok.visibility = View.VISIBLE
                 rozvrhUtorok.visibility = View.GONE
                 rozvrhStreda.visibility = View.GONE
+                rozvrhStvrtok.visibility = View.GONE
+                rozvrhPiatok.visibility = View.GONE
 
                 btnMonday.isSelected = true
                 btnTuesday.isSelected = false
@@ -120,6 +170,8 @@ class RozvrhFragment : Fragment() {
             rozvrhPondelok.visibility = View.VISIBLE
             rozvrhUtorok.visibility = View.GONE
             rozvrhStreda.visibility = View.GONE
+            rozvrhStvrtok.visibility = View.GONE
+            rozvrhPiatok.visibility = View.GONE
 
             btnMonday.isSelected = true
             btnTuesday.isSelected = false
@@ -137,6 +189,8 @@ class RozvrhFragment : Fragment() {
             rozvrhPondelok.visibility = View.GONE
             rozvrhUtorok.visibility = View.VISIBLE
             rozvrhStreda.visibility = View.GONE
+            rozvrhStvrtok.visibility = View.GONE
+            rozvrhPiatok.visibility = View.GONE
 
             btnMonday.isSelected = false
             btnTuesday.isSelected = true
@@ -154,6 +208,8 @@ class RozvrhFragment : Fragment() {
             rozvrhPondelok.visibility = View.GONE
             rozvrhUtorok.visibility = View.GONE
             rozvrhStreda.visibility = View.VISIBLE
+            rozvrhStvrtok.visibility = View.GONE
+            rozvrhPiatok.visibility = View.GONE
 
             btnMonday.isSelected = false
             btnTuesday.isSelected = false
@@ -166,6 +222,44 @@ class RozvrhFragment : Fragment() {
             btnWednesday.setBackgroundColor(resources.getColor(R.color.active_day))
             btnThursday.setBackgroundColor(resources.getColor(R.color.inactive_day))
             btnFriday.setBackgroundColor(resources.getColor(R.color.inactive_day))
+        }
+        btnThursday.setOnClickListener {
+            rozvrhPondelok.visibility = View.GONE
+            rozvrhUtorok.visibility = View.GONE
+            rozvrhStreda.visibility = View.GONE
+            rozvrhStvrtok.visibility = View.VISIBLE
+            rozvrhPiatok.visibility = View.GONE
+
+            btnMonday.isSelected = false
+            btnTuesday.isSelected = false
+            btnWednesday.isSelected = false
+            btnThursday.isSelected = true
+            btnFriday.isSelected = false
+
+            btnMonday.setBackgroundColor(resources.getColor(R.color.inactive_day))
+            btnTuesday.setBackgroundColor(resources.getColor(R.color.inactive_day))
+            btnWednesday.setBackgroundColor(resources.getColor(R.color.inactive_day))
+            btnThursday.setBackgroundColor(resources.getColor(R.color.active_day))
+            btnFriday.setBackgroundColor(resources.getColor(R.color.inactive_day))
+        }
+        btnFriday.setOnClickListener {
+            rozvrhPondelok.visibility = View.GONE
+            rozvrhUtorok.visibility = View.GONE
+            rozvrhStreda.visibility = View.GONE
+            rozvrhStvrtok.visibility = View.GONE
+            rozvrhPiatok.visibility = View.VISIBLE
+
+            btnMonday.isSelected = false
+            btnTuesday.isSelected = false
+            btnWednesday.isSelected = false
+            btnThursday.isSelected = false
+            btnFriday.isSelected = true
+
+            btnMonday.setBackgroundColor(resources.getColor(R.color.inactive_day))
+            btnTuesday.setBackgroundColor(resources.getColor(R.color.inactive_day))
+            btnWednesday.setBackgroundColor(resources.getColor(R.color.inactive_day))
+            btnThursday.setBackgroundColor(resources.getColor(R.color.inactive_day))
+            btnFriday.setBackgroundColor(resources.getColor(R.color.active_day))
         }
 
         return binding!!.root

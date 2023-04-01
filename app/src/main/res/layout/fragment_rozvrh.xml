@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginBottom="70dp"
     android:orientation="vertical"
     tools:context=".RozvrhFragment">
 
@@ -93,7 +92,7 @@
                         android:paddingStart="18dp"
                         android:paddingTop="5dp"
                         android:paddingEnd="18dp"
-                        android:text="🕐 8:50 - 9:35"
+                        android:text="🕐 8:00 - 9:30"
                         android:textSize="16sp" />
 
                     <TextView
@@ -104,7 +103,7 @@
                         android:paddingStart="18dp"
                         android:paddingEnd="18dp"
                         android:paddingBottom="1dp"
-                        android:text="Prosociálna Komunikácia"
+                        android:text="Optokomunikačné a informačné systémy 1"
                         android:textSize="24sp" />
 
                     <TextView
@@ -114,7 +113,7 @@
                         android:layout_below="@+id/PONpredmet1"
                         android:paddingStart="18dp"
                         android:paddingEnd="18dp"
-                        android:text="👤Okálová"
+                        android:text="👤doc. Ing. Igor Černák, PhD."
                         android:textSize="18sp" />
 
                     <TextView
@@ -124,7 +123,7 @@
                         android:paddingStart="18dp"
                         android:paddingEnd="18dp"
                         android:paddingBottom="5dp"
-                        android:text="🚪A302"
+                        android:text="🚪A403"
                         android:textSize="18sp" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -147,7 +146,7 @@
                         android:paddingStart="18dp"
                         android:paddingTop="5dp"
                         android:paddingEnd="18dp"
-                        android:text="🕐 9:40 - 11:10"
+                        android:text="🕐 9:40 - 11:15 (Každý prvý týždeň v mesiaci)"
                         android:textSize="16sp" />
 
                     <TextView
@@ -158,7 +157,7 @@
                         android:paddingStart="18dp"
                         android:paddingEnd="18dp"
                         android:paddingBottom="1dp"
-                        android:text="Pedagogická a Sociálna Komunikácia"
+                        android:text="Aplikácie Internetu vecí 2"
                         android:textSize="24sp" />
 
                     <TextView
@@ -168,7 +167,7 @@
                         android:layout_below="@+id/PONpredmet2"
                         android:paddingStart="18dp"
                         android:paddingEnd="18dp"
-                        android:text="👤Bellová"
+                        android:text="👤doc. Ing. Ján Pillár, PhD."
                         android:textSize="18sp" />
 
                     <TextView
@@ -178,7 +177,7 @@
                         android:paddingStart="18dp"
                         android:paddingEnd="18dp"
                         android:paddingBottom="5dp"
-                        android:text="🚪A202"
+                        android:text="🚪A403"
                         android:textSize="18sp" />
                 </RelativeLayout>
 
@@ -202,7 +201,7 @@
                         android:paddingStart="18dp"
                         android:paddingTop="5dp"
                         android:paddingEnd="18dp"
-                        android:text="🕐 9:40 - 10:25"
+                        android:text="🕐 11:20 - 12:50"
                         android:textSize="16sp" />
 
                     <TextView
@@ -213,7 +212,7 @@
                         android:paddingStart="18dp"
                         android:paddingEnd="18dp"
                         android:paddingBottom="1dp"
-                        android:text="Prosociálna Výchova"
+                        android:text="Somatický vývin dieťaťa a dorastu"
                         android:textSize="24sp" />
 
                     <TextView
@@ -223,7 +222,7 @@
                         android:layout_below="@+id/PONpredmet3"
                         android:paddingStart="18dp"
                         android:paddingEnd="18dp"
-                        android:text="👤Jablonský, Okálová"
+                        android:text="👤MVDr. Gabriela Hrkľová, PhD., RNDr. Mária Balážová, PhD."
                         android:textSize="18sp" />
 
                     <TextView
@@ -257,7 +256,7 @@
                         android:paddingStart="18dp"
                         android:paddingTop="5dp"
                         android:paddingEnd="18dp"
-                        android:text="🕐 12:10 - 12:55"
+                        android:text="🕐 13:00 - 15:25"
                         android:textSize="16sp" />
 
                     <TextView
@@ -268,7 +267,7 @@
                         android:paddingStart="18dp"
                         android:paddingEnd="18dp"
                         android:paddingBottom="1dp"
-                        android:text="Pedagogická a Sociálna Komunikácia"
+                        android:text="Počítačové siete 1"
                         android:textSize="24sp" />
 
                     <TextView
@@ -278,7 +277,7 @@
                         android:layout_below="@+id/PONpredmet4"
                         android:paddingStart="18dp"
                         android:paddingEnd="18dp"
-                        android:text="👤Tišťanová"
+                        android:text="👤doc. Ing. Michal Jenčo, PhD."
                         android:textSize="18sp" />
 
                     <TextView
@@ -288,122 +287,11 @@
                         android:paddingStart="18dp"
                         android:paddingEnd="18dp"
                         android:paddingBottom="5dp"
-                        android:text="🚪Aula"
+                        android:text="🚪A402"
                         android:textSize="18sp" />
                 </RelativeLayout>
 
             </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                style="@style/Widget.Material3.CardView.Filled"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                app:cardCornerRadius="20dp">
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <TextView
-                        android:id="@+id/PONcas5"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:paddingStart="18dp"
-                        android:paddingTop="5dp"
-                        android:paddingEnd="18dp"
-                        android:text="🕐 13:00 - 14:30"
-                        android:textSize="16sp" />
-
-                    <TextView
-                        android:id="@+id/PONpredmet5"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@+id/PONcas5"
-                        android:paddingStart="18dp"
-                        android:paddingEnd="18dp"
-                        android:paddingBottom="1dp"
-                        android:text="Základné Témy Biblie"
-                        android:textSize="24sp" />
-
-                    <TextView
-                        android:id="@+id/PONucitel5"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@+id/PONpredmet5"
-                        android:paddingStart="18dp"
-                        android:paddingEnd="18dp"
-                        android:text="👤Kľuska, Kľusková"
-                        android:textSize="18sp" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@+id/PONucitel5"
-                        android:paddingStart="18dp"
-                        android:paddingEnd="18dp"
-                        android:paddingBottom="5dp"
-                        android:text="🚪Aula"
-                        android:textSize="18sp" />
-                </RelativeLayout>
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                style="@style/Widget.Material3.CardView.Filled"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                app:cardCornerRadius="20dp">
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <TextView
-                        android:id="@+id/PONcas6"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:paddingStart="18dp"
-                        android:paddingTop="5dp"
-                        android:paddingEnd="18dp"
-                        android:text="🕐 14:40 - 17:00"
-                        android:textSize="16sp" />
-
-                    <TextView
-                        android:id="@+id/PONpredmet6"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@+id/PONcas6"
-                        android:paddingStart="18dp"
-                        android:paddingEnd="18dp"
-                        android:paddingBottom="1dp"
-                        android:text="Internet Vecí"
-                        android:textSize="24sp" />
-
-                    <TextView
-                        android:id="@+id/PONucitel6"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@+id/PONpredmet6"
-                        android:paddingStart="18dp"
-                        android:paddingEnd="18dp"
-                        android:text="👤Pillár"
-                        android:textSize="18sp" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@+id/PONucitel6"
-                        android:paddingStart="18dp"
-                        android:paddingEnd="18dp"
-                        android:paddingBottom="5dp"
-                        android:text="🚪A401"
-                        android:textSize="18sp" />
-                </RelativeLayout>
-
-            </androidx.cardview.widget.CardView>
-
 
         </LinearLayout>
 
@@ -443,7 +331,7 @@
                         android:paddingStart="18dp"
                         android:paddingTop="5dp"
                         android:paddingEnd="18dp"
-                        android:text="🕐 10:30 - 12:50"
+                        android:text="🕐 8:50 - 10:20 (Konzultačná hodina)"
                         android:textSize="16sp" />
 
                     <TextView
@@ -454,7 +342,7 @@
                         android:paddingStart="18dp"
                         android:paddingEnd="18dp"
                         android:paddingBottom="1dp"
-                        android:text="Aplikácie Internetu Vecí"
+                        android:text="Optokomunikačné a informačné systémy 1"
                         android:textSize="24sp" />
 
                     <TextView
@@ -464,7 +352,7 @@
                         android:layout_below="@+id/UTOpredmet1"
                         android:paddingStart="18dp"
                         android:paddingEnd="18dp"
-                        android:text="👤Pillár"
+                        android:text="👤doc. Ing. Igor Černák, PhD."
                         android:textSize="18sp" />
 
                     <TextView
@@ -474,7 +362,7 @@
                         android:paddingStart="18dp"
                         android:paddingEnd="18dp"
                         android:paddingBottom="5dp"
-                        android:text="🚪A401"
+                        android:text="🚪A403"
                         android:textSize="18sp" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -516,7 +404,7 @@
                         android:paddingStart="18dp"
                         android:paddingTop="5dp"
                         android:paddingEnd="18dp"
-                        android:text="🕐 8:50 - 10:20"
+                        android:text="🕐 8:00 - 9:35"
                         android:textSize="16sp" />
 
                     <TextView
@@ -527,7 +415,7 @@
                         android:paddingStart="18dp"
                         android:paddingEnd="18dp"
                         android:paddingBottom="1dp"
-                        android:text="Sociologické Aspekty Edukácie"
+                        android:text="Detské programovacie jazyky"
                         android:textSize="24sp" />
 
                     <TextView
@@ -537,7 +425,7 @@
                         android:layout_below="@+id/STRpredmet1"
                         android:paddingStart="18dp"
                         android:paddingEnd="18dp"
-                        android:text="👤Emmerová"
+                        android:text="👤Ing. Jana Jacková, PhD."
                         android:textSize="18sp" />
 
                     <TextView
@@ -547,7 +435,169 @@
                         android:paddingStart="18dp"
                         android:paddingEnd="18dp"
                         android:paddingBottom="5dp"
+                        android:text="🚪A403"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/Widget.Material3.CardView.Filled"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/STRcas2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="18dp"
+                        android:paddingTop="5dp"
+                        android:paddingEnd="18dp"
+                        android:text="🕐 9:40 - 11:10"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/STRpredmet2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/STRcas2"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:paddingBottom="1dp"
+                        android:text="Základy špeciálnej pedagogiky"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/STRucitel2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/STRpredmet2"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:text="👤PhDr. Helena Orieščiková, PhD."
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/STRucitel2"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:paddingBottom="5dp"
                         android:text="🚪Aula"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/Widget.Material3.CardView.Filled"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/STRcas3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="18dp"
+                        android:paddingTop="5dp"
+                        android:paddingEnd="18dp"
+                        android:text="🕐 11:20 - 13:40"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/STRpredmet3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/STRcas3"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:paddingBottom="1dp"
+                        android:text="Programovanie 3"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/STRucitel3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/STRpredmet3"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:text="👤doc. Ing. Michal Jenčo, PhD."
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/STRucitel3"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:paddingBottom="5dp"
+                        android:text="🚪A402"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/Widget.Material3.CardView.Filled"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/STRcas4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="18dp"
+                        android:paddingTop="5dp"
+                        android:paddingEnd="18dp"
+                        android:text="🕐 13:50 - 16:15"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/STRpredmet4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/STRcas4"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:paddingBottom="1dp"
+                        android:text="Webový dizajn 2"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/STRucitel4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/STRpredmet4"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:text="👤doc. Ing. Ján Pillár, PhD."
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/STRucitel4"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:paddingBottom="5dp"
+                        android:text="🚪A403"
                         android:textSize="18sp" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -556,4 +606,165 @@
     </ScrollView>
 
     <!-- End Streda -->
+
+    <!-- Start Stvrtok -->
+
+    <ScrollView
+        android:id="@+id/rozvrhStvrtok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                style="@style/Widget.Material3.CardView.Filled"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/STVcas1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="18dp"
+                        android:paddingTop="5dp"
+                        android:paddingEnd="18dp"
+                        android:text="🕐 9:40 - 11:10"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/STVpredmet1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/STVcas1"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:paddingBottom="1dp"
+                        android:text="Základy špeciálnej pedagogiky"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/STVucitel1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/STVpredmet1"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:text="👤PhDr. Helena Orieščiková, PhD."
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/STVucitel1"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:paddingBottom="5dp"
+                        android:text="🚪A203"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/Widget.Material3.CardView.Filled"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/STVcas2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="18dp"
+                        android:paddingTop="5dp"
+                        android:paddingEnd="18dp"
+                        android:text="🕐 13:50 - 16:10"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/STVpredmet2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/STVcas2"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:paddingBottom="1dp"
+                        android:text="Počítačové siete 2"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/STVucitel2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/STVpredmet2"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:text="👤doc. Ing. Michal Jenčo, PhD."
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/STVucitel2"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:paddingBottom="5dp"
+                        android:text="🚪A402"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!-- End Stvrtok -->
+
+    <!-- Start Piatok -->
+
+    <ScrollView
+        android:id="@+id/rozvrhPiatok"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rozvrh_prazdne"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Žiadny rozvrh na Piatok"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                android:textColor="?attr/colorPrimary"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!-- End Piatok -->
 </LinearLayout>

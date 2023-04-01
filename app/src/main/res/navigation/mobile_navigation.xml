@@ -28,4 +28,10 @@
         android:name="com.marekguran.rozvrh.HodnoteniaFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_hodnotenia" />
+
+    <fragment
+        android:id="@+id/navigation_domov"
+        android:name="com.marekguran.rozvrh.DomovFragment"
+        android:label="Domov"
+        tools:layout="@layout/fragment_domov" />
 </navigation>

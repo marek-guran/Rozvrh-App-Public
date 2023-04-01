@@ -44,4 +44,5 @@
     <color name="active_day">#3D93E3</color>
     <color name="inactive_day">#A1A1A1</color>
     <color name="text_hodnotenia">#000000</color>
+    <color name="hodnotenie_znamka">#46F795</color>
 </resources>

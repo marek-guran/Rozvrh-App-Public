@@ -21,4 +21,8 @@
         android:icon="@drawable/vyber_hodnotenia"
         android:title="@string/title_notifications"/>
 
+    <item
+        android:id="@+id/navigation_domov"
+        android:icon="@drawable/vyber_domov"
+        android:title="Domov"/>
 </menu>
