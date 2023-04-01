@@ -41,7 +41,7 @@ Monochromatic Icon (Material 3): https://youtu.be/Kje1KIwzwl0
 
 **data** - your subjects with grade\
 **obedy** - lunches with your remaining balance\
-**zadania** - your assignments\
+**zadania** - your assignments
 
 <details> 
    <summary>Json</summary> 
